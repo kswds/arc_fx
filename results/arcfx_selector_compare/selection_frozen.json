@@ -1,0 +1,98 @@
+[
+  {
+    "backbone": "compact_mlp",
+    "protocol": "pit_original",
+    "selector": "topk",
+    "tau": null,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  },
+  {
+    "backbone": "compact_mlp",
+    "protocol": "pit_original",
+    "selector": "dense_signed",
+    "tau": null,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  },
+  {
+    "backbone": "compact_mlp",
+    "protocol": "pit_original",
+    "selector": "soft_threshold",
+    "tau": 0.0,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  },
+  {
+    "backbone": "compact_mlp",
+    "protocol": "overlap50",
+    "selector": "topk",
+    "tau": null,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  },
+  {
+    "backbone": "compact_mlp",
+    "protocol": "overlap50",
+    "selector": "dense_signed",
+    "tau": null,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  },
+  {
+    "backbone": "compact_mlp",
+    "protocol": "overlap50",
+    "selector": "soft_threshold",
+    "tau": 0.025,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  },
+  {
+    "backbone": "original_arcfx",
+    "protocol": "pit_original",
+    "selector": "topk",
+    "tau": null,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  },
+  {
+    "backbone": "original_arcfx",
+    "protocol": "pit_original",
+    "selector": "dense_signed",
+    "tau": null,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  },
+  {
+    "backbone": "original_arcfx",
+    "protocol": "pit_original",
+    "selector": "soft_threshold",
+    "tau": 0.0,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  },
+  {
+    "backbone": "original_arcfx",
+    "protocol": "overlap50",
+    "selector": "topk",
+    "tau": null,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  },
+  {
+    "backbone": "original_arcfx",
+    "protocol": "overlap50",
+    "selector": "dense_signed",
+    "tau": null,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  },
+  {
+    "backbone": "original_arcfx",
+    "protocol": "overlap50",
+    "selector": "soft_threshold",
+    "tau": 0.2,
+    "source": "validation only; five-seed mean",
+    "test_results_used": false
+  }
+]

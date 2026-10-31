@@ -1,0 +1,45 @@
+{
+  "config": {
+    "learning": {
+      "epochs": 20,
+      "patience": 4,
+      "batch_size": 256,
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "clip_grad_norm": 1.0,
+      "loss": "unweighted raw-return direction BCE"
+    },
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "models": [
+      "dynamic_graph",
+      "no_graph",
+      "mlp",
+      "transformer"
+    ],
+    "policies": [
+      "conservative_lag14",
+      "market_feed_assumed"
+    ],
+    "initialization": "fresh seeded initialization, no pretrained weights",
+    "fit_rows": "all 527 former validation decision dates",
+    "evaluation_rows": "identical to fitting rows; resubstitution",
+    "checkpoint": "same-set sign-hit maximum, tie lower same-set BCE",
+    "feature_scaling": "unchanged: original pre-validation train-only scalers and regime thresholds",
+    "primary_targets": "all ten non-USD currency returns against USD",
+    "secondary_targets": "all 55 strength-difference currency pairs, no target filtering",
+    "known_overlap": true,
+    "independent_test": false
+  },
+  "source_sha256": "9473af93ec819c0003d02d83be4af61aae0cd9a3c48c4ea94276fb1ec37b6d92",
+  "followup_training_logic_sha256": "35645f44830d891460bd6520ef7ad6140cc66378dd3ed56d639384cd1f7aa294",
+  "input_hashes": {
+    "data/processed/fx_panel_pit.csv": "22740b4dd23849c66d9891232ce8a5996eb3da002cfb61ea1d95c147016506ad",
+    "data/processed/nonfx_features_pit.csv": "7c068cddfb60462fcb0ab27df9c0c3ed603ba87d19ad90d0acc6c7b7ed60c373"
+  }
+}

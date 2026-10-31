@@ -1,0 +1,36 @@
+{
+  "rows": 5252,
+  "first": "2005-01-03 00:00:00",
+  "last": "2025-12-17 00:00:00",
+  "raw_centered_label_disagreement": 0.008015993907083015,
+  "historical_comparison": [
+    {
+      "seed": 21,
+      "n": 10490,
+      "sign_disagreement": 0.011916110581506196,
+      "predictions_exactly_equal": false,
+      "checkpoint_hash_equal": false
+    },
+    {
+      "seed": 42,
+      "n": 10490,
+      "sign_disagreement": 0.018493803622497616,
+      "predictions_exactly_equal": false,
+      "checkpoint_hash_equal": false
+    },
+    {
+      "seed": 456,
+      "n": 10490,
+      "sign_disagreement": 0.008674928503336512,
+      "predictions_exactly_equal": false,
+      "checkpoint_hash_equal": false
+    }
+  ],
+  "timing": "Legacy window ends t-1, label is return t to t+1, stored target_date is t. New window ends t, target_date is Target_Date.",
+  "scaler": "Existing scaler ends floor(N*.6); sequence split trains slightly further, so conservative, not future leakage.",
+  "smoothness": "Legacy shuffled minibatch A_prev compares unrelated dates, not temporal neighbors.",
+  "pit_audit": {
+    "violations_avail_after_cutoff": 0,
+    "violations_obs_date_after_t": 0
+  }
+}

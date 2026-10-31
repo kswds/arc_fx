@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "completed_runs": 40,
+  "evaluation_dates": 527,
+  "primary_samples_per_run": 5270,
+  "all_pair_samples_per_run": 28985,
+  "fit_eval_overlap_fraction": 1.0,
+  "checkpoint_predictions_verified": true,
+  "all_target_labels_verified": true,
+  "common_graph_initialization_verified": true
+}

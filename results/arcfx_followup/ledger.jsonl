@@ -1,0 +1,120 @@
+{"time": 1793286811.9883218, "policy": "conservative_lag14", "condition": "A1", "seed": 0, "status": "started"}
+{"time": 1793286813.3623002, "policy": "conservative_lag14", "condition": "A1", "seed": 0, "status": "completed", "origin": "trained"}
+{"time": 1793286813.366569, "policy": "conservative_lag14", "condition": "A2", "seed": 0, "status": "started"}
+{"time": 1793286814.640596, "policy": "conservative_lag14", "condition": "A2", "seed": 0, "status": "completed", "origin": "trained"}
+{"time": 1793286814.643328, "policy": "conservative_lag14", "condition": "A3", "seed": 0, "status": "started"}
+{"time": 1793286815.95285, "policy": "conservative_lag14", "condition": "A3", "seed": 0, "status": "completed", "origin": "trained"}
+{"time": 1793286815.9555714, "policy": "conservative_lag14", "condition": "A4", "seed": 0, "status": "started"}
+{"time": 1793286817.2661018, "policy": "conservative_lag14", "condition": "A4", "seed": 0, "status": "completed", "origin": "trained"}
+{"time": 1793286817.268786, "policy": "conservative_lag14", "condition": "A1", "seed": 1, "status": "started"}
+{"time": 1793286818.7666776, "policy": "conservative_lag14", "condition": "A1", "seed": 1, "status": "completed", "origin": "trained"}
+{"time": 1793286818.7714348, "policy": "conservative_lag14", "condition": "A2", "seed": 1, "status": "started"}
+{"time": 1793286820.358241, "policy": "conservative_lag14", "condition": "A2", "seed": 1, "status": "completed", "origin": "trained"}
+{"time": 1793286820.365641, "policy": "conservative_lag14", "condition": "A3", "seed": 1, "status": "started"}
+{"time": 1793286821.6147065, "policy": "conservative_lag14", "condition": "A3", "seed": 1, "status": "completed", "origin": "trained"}
+{"time": 1793286821.6176205, "policy": "conservative_lag14", "condition": "A4", "seed": 1, "status": "started"}
+{"time": 1793286822.9428463, "policy": "conservative_lag14", "condition": "A4", "seed": 1, "status": "completed", "origin": "trained"}
+{"time": 1793286822.9460356, "policy": "conservative_lag14", "condition": "A1", "seed": 2, "status": "started"}
+{"time": 1793286826.1521077, "policy": "conservative_lag14", "condition": "A1", "seed": 2, "status": "completed", "origin": "trained"}
+{"time": 1793286826.1546836, "policy": "conservative_lag14", "condition": "A2", "seed": 2, "status": "started"}
+{"time": 1793286830.1323857, "policy": "conservative_lag14", "condition": "A2", "seed": 2, "status": "completed", "origin": "trained"}
+{"time": 1793286830.1349375, "policy": "conservative_lag14", "condition": "A3", "seed": 2, "status": "started"}
+{"time": 1793286831.5629454, "policy": "conservative_lag14", "condition": "A3", "seed": 2, "status": "completed", "origin": "trained"}
+{"time": 1793286831.5657015, "policy": "conservative_lag14", "condition": "A4", "seed": 2, "status": "started"}
+{"time": 1793286834.0654109, "policy": "conservative_lag14", "condition": "A4", "seed": 2, "status": "completed", "origin": "trained"}
+{"time": 1793286834.068495, "policy": "conservative_lag14", "condition": "A1", "seed": 3, "status": "started"}
+{"time": 1793286835.2911909, "policy": "conservative_lag14", "condition": "A1", "seed": 3, "status": "completed", "origin": "trained"}
+{"time": 1793286835.2938907, "policy": "conservative_lag14", "condition": "A2", "seed": 3, "status": "started"}
+{"time": 1793286836.6826293, "policy": "conservative_lag14", "condition": "A2", "seed": 3, "status": "completed", "origin": "trained"}
+{"time": 1793286836.6858833, "policy": "conservative_lag14", "condition": "A3", "seed": 3, "status": "started"}
+{"time": 1793286837.9626925, "policy": "conservative_lag14", "condition": "A3", "seed": 3, "status": "completed", "origin": "trained"}
+{"time": 1793286837.9655385, "policy": "conservative_lag14", "condition": "A4", "seed": 3, "status": "started"}
+{"time": 1793286839.307394, "policy": "conservative_lag14", "condition": "A4", "seed": 3, "status": "completed", "origin": "trained"}
+{"time": 1793286839.310523, "policy": "conservative_lag14", "condition": "A1", "seed": 4, "status": "started"}
+{"time": 1793286840.6089206, "policy": "conservative_lag14", "condition": "A1", "seed": 4, "status": "completed", "origin": "trained"}
+{"time": 1793286840.6119087, "policy": "conservative_lag14", "condition": "A2", "seed": 4, "status": "started"}
+{"time": 1793286841.8928485, "policy": "conservative_lag14", "condition": "A2", "seed": 4, "status": "completed", "origin": "trained"}
+{"time": 1793286841.89531, "policy": "conservative_lag14", "condition": "A3", "seed": 4, "status": "started"}
+{"time": 1793286843.1178992, "policy": "conservative_lag14", "condition": "A3", "seed": 4, "status": "completed", "origin": "trained"}
+{"time": 1793286843.1206858, "policy": "conservative_lag14", "condition": "A4", "seed": 4, "status": "started"}
+{"time": 1793286844.4886098, "policy": "conservative_lag14", "condition": "A4", "seed": 4, "status": "completed", "origin": "trained"}
+{"time": 1793286844.4913604, "policy": "conservative_lag14", "condition": "mlp", "seed": 0, "status": "started"}
+{"time": 1793286845.3509443, "policy": "conservative_lag14", "condition": "mlp", "seed": 0, "status": "completed", "origin": "trained"}
+{"time": 1793286845.3560193, "policy": "conservative_lag14", "condition": "transformer", "seed": 0, "status": "started"}
+{"time": 1793286862.6900718, "policy": "conservative_lag14", "condition": "transformer", "seed": 0, "status": "completed", "origin": "trained"}
+{"time": 1793286862.6922984, "policy": "conservative_lag14", "condition": "mlp", "seed": 1, "status": "started"}
+{"time": 1793286863.6684823, "policy": "conservative_lag14", "condition": "mlp", "seed": 1, "status": "completed", "origin": "trained"}
+{"time": 1793286863.6727064, "policy": "conservative_lag14", "condition": "transformer", "seed": 1, "status": "started"}
+{"time": 1793286909.2739475, "policy": "conservative_lag14", "condition": "transformer", "seed": 1, "status": "completed", "origin": "trained"}
+{"time": 1793286909.276916, "policy": "conservative_lag14", "condition": "mlp", "seed": 2, "status": "started"}
+{"time": 1793286910.3938925, "policy": "conservative_lag14", "condition": "mlp", "seed": 2, "status": "completed", "origin": "trained"}
+{"time": 1793286910.398176, "policy": "conservative_lag14", "condition": "transformer", "seed": 2, "status": "started"}
+{"time": 1793286927.4193277, "policy": "conservative_lag14", "condition": "transformer", "seed": 2, "status": "completed", "origin": "trained"}
+{"time": 1793286927.4230518, "policy": "conservative_lag14", "condition": "mlp", "seed": 3, "status": "started"}
+{"time": 1793286928.2760217, "policy": "conservative_lag14", "condition": "mlp", "seed": 3, "status": "completed", "origin": "trained"}
+{"time": 1793286928.280275, "policy": "conservative_lag14", "condition": "transformer", "seed": 3, "status": "started"}
+{"time": 1793286950.2911825, "policy": "conservative_lag14", "condition": "transformer", "seed": 3, "status": "completed", "origin": "trained"}
+{"time": 1793286950.2935963, "policy": "conservative_lag14", "condition": "mlp", "seed": 4, "status": "started"}
+{"time": 1793286951.3784642, "policy": "conservative_lag14", "condition": "mlp", "seed": 4, "status": "completed", "origin": "trained"}
+{"time": 1793286951.383978, "policy": "conservative_lag14", "condition": "transformer", "seed": 4, "status": "started"}
+{"time": 1793286969.9538012, "policy": "conservative_lag14", "condition": "transformer", "seed": 4, "status": "completed", "origin": "trained"}
+{"time": 1793286969.9567122, "policy": "market_feed_assumed", "condition": "A1", "seed": 0, "status": "started"}
+{"time": 1793286971.1612759, "policy": "market_feed_assumed", "condition": "A1", "seed": 0, "status": "completed", "origin": "trained"}
+{"time": 1793286971.1641705, "policy": "market_feed_assumed", "condition": "A2", "seed": 0, "status": "started"}
+{"time": 1793286972.3369277, "policy": "market_feed_assumed", "condition": "A2", "seed": 0, "status": "completed", "origin": "trained"}
+{"time": 1793286972.3907347, "policy": "market_feed_assumed", "condition": "A3", "seed": 0, "status": "reused", "path": "C:\\Users\\\uae40\uc0c1\uc644\\Desktop\\26_ICAIF\\annonymous_github_share\\results\\arcfx_search\\runs\\winner_no_graph__final__s0"}
+{"time": 1793286972.5727456, "policy": "market_feed_assumed", "condition": "A3", "seed": 0, "status": "completed", "origin": "reused"}
+{"time": 1793286972.5999742, "policy": "market_feed_assumed", "condition": "A4", "seed": 0, "status": "reused", "path": "C:\\Users\\\uae40\uc0c1\uc644\\Desktop\\26_ICAIF\\annonymous_github_share\\results\\arcfx_search\\runs\\dense_signed__final__s0"}
+{"time": 1793286972.7746525, "policy": "market_feed_assumed", "condition": "A4", "seed": 0, "status": "completed", "origin": "reused"}
+{"time": 1793286972.7773936, "policy": "market_feed_assumed", "condition": "A1", "seed": 1, "status": "started"}
+{"time": 1793286974.9817824, "policy": "market_feed_assumed", "condition": "A1", "seed": 1, "status": "completed", "origin": "trained"}
+{"time": 1793286974.9848511, "policy": "market_feed_assumed", "condition": "A2", "seed": 1, "status": "started"}
+{"time": 1793286976.7526462, "policy": "market_feed_assumed", "condition": "A2", "seed": 1, "status": "completed", "origin": "trained"}
+{"time": 1793286976.7859998, "policy": "market_feed_assumed", "condition": "A3", "seed": 1, "status": "reused", "path": "C:\\Users\\\uae40\uc0c1\uc644\\Desktop\\26_ICAIF\\annonymous_github_share\\results\\arcfx_search\\runs\\winner_no_graph__final__s1"}
+{"time": 1793286976.956381, "policy": "market_feed_assumed", "condition": "A3", "seed": 1, "status": "completed", "origin": "reused"}
+{"time": 1793286976.98197, "policy": "market_feed_assumed", "condition": "A4", "seed": 1, "status": "reused", "path": "C:\\Users\\\uae40\uc0c1\uc644\\Desktop\\26_ICAIF\\annonymous_github_share\\results\\arcfx_search\\runs\\dense_signed__final__s1"}
+{"time": 1793286977.1413097, "policy": "market_feed_assumed", "condition": "A4", "seed": 1, "status": "completed", "origin": "reused"}
+{"time": 1793286977.144042, "policy": "market_feed_assumed", "condition": "A1", "seed": 2, "status": "started"}
+{"time": 1793286978.9398956, "policy": "market_feed_assumed", "condition": "A1", "seed": 2, "status": "completed", "origin": "trained"}
+{"time": 1793286978.9426053, "policy": "market_feed_assumed", "condition": "A2", "seed": 2, "status": "started"}
+{"time": 1793286980.132398, "policy": "market_feed_assumed", "condition": "A2", "seed": 2, "status": "completed", "origin": "trained"}
+{"time": 1793286980.164254, "policy": "market_feed_assumed", "condition": "A3", "seed": 2, "status": "reused", "path": "C:\\Users\\\uae40\uc0c1\uc644\\Desktop\\26_ICAIF\\annonymous_github_share\\results\\arcfx_search\\runs\\winner_no_graph__final__s2"}
+{"time": 1793286980.325569, "policy": "market_feed_assumed", "condition": "A3", "seed": 2, "status": "completed", "origin": "reused"}
+{"time": 1793286980.352392, "policy": "market_feed_assumed", "condition": "A4", "seed": 2, "status": "reused", "path": "C:\\Users\\\uae40\uc0c1\uc644\\Desktop\\26_ICAIF\\annonymous_github_share\\results\\arcfx_search\\runs\\dense_signed__final__s2"}
+{"time": 1793286980.5146961, "policy": "market_feed_assumed", "condition": "A4", "seed": 2, "status": "completed", "origin": "reused"}
+{"time": 1793286980.5175962, "policy": "market_feed_assumed", "condition": "A1", "seed": 3, "status": "started"}
+{"time": 1793286983.0657156, "policy": "market_feed_assumed", "condition": "A1", "seed": 3, "status": "completed", "origin": "trained"}
+{"time": 1793286983.068313, "policy": "market_feed_assumed", "condition": "A2", "seed": 3, "status": "started"}
+{"time": 1793286984.2482872, "policy": "market_feed_assumed", "condition": "A2", "seed": 3, "status": "completed", "origin": "trained"}
+{"time": 1793286984.2509248, "policy": "market_feed_assumed", "condition": "A3", "seed": 3, "status": "started"}
+{"time": 1793286986.9590578, "policy": "market_feed_assumed", "condition": "A3", "seed": 3, "status": "completed", "origin": "trained"}
+{"time": 1793286986.9898262, "policy": "market_feed_assumed", "condition": "A4", "seed": 3, "status": "reused", "path": "C:\\Users\\\uae40\uc0c1\uc644\\Desktop\\26_ICAIF\\annonymous_github_share\\results\\arcfx_search\\runs\\dense_signed__final__s3"}
+{"time": 1793286987.1522727, "policy": "market_feed_assumed", "condition": "A4", "seed": 3, "status": "completed", "origin": "reused"}
+{"time": 1793286987.1549702, "policy": "market_feed_assumed", "condition": "A1", "seed": 4, "status": "started"}
+{"time": 1793286988.3309865, "policy": "market_feed_assumed", "condition": "A1", "seed": 4, "status": "completed", "origin": "trained"}
+{"time": 1793286988.3348618, "policy": "market_feed_assumed", "condition": "A2", "seed": 4, "status": "started"}
+{"time": 1793286989.5773873, "policy": "market_feed_assumed", "condition": "A2", "seed": 4, "status": "completed", "origin": "trained"}
+{"time": 1793286989.5800889, "policy": "market_feed_assumed", "condition": "A3", "seed": 4, "status": "started"}
+{"time": 1793286991.631826, "policy": "market_feed_assumed", "condition": "A3", "seed": 4, "status": "completed", "origin": "trained"}
+{"time": 1793286991.656262, "policy": "market_feed_assumed", "condition": "A4", "seed": 4, "status": "reused", "path": "C:\\Users\\\uae40\uc0c1\uc644\\Desktop\\26_ICAIF\\annonymous_github_share\\results\\arcfx_search\\runs\\dense_signed__final__s4"}
+{"time": 1793286991.8189423, "policy": "market_feed_assumed", "condition": "A4", "seed": 4, "status": "completed", "origin": "reused"}
+{"time": 1793286991.8210752, "policy": "market_feed_assumed", "condition": "mlp", "seed": 0, "status": "started"}
+{"time": 1793286992.711222, "policy": "market_feed_assumed", "condition": "mlp", "seed": 0, "status": "completed", "origin": "trained"}
+{"time": 1793286992.7158475, "policy": "market_feed_assumed", "condition": "transformer", "seed": 0, "status": "started"}
+{"time": 1793287011.2912858, "policy": "market_feed_assumed", "condition": "transformer", "seed": 0, "status": "completed", "origin": "trained"}
+{"time": 1793287011.2946148, "policy": "market_feed_assumed", "condition": "mlp", "seed": 1, "status": "started"}
+{"time": 1793287012.2706056, "policy": "market_feed_assumed", "condition": "mlp", "seed": 1, "status": "completed", "origin": "trained"}
+{"time": 1793287012.27487, "policy": "market_feed_assumed", "condition": "transformer", "seed": 1, "status": "started"}
+{"time": 1793287030.8634307, "policy": "market_feed_assumed", "condition": "transformer", "seed": 1, "status": "completed", "origin": "trained"}
+{"time": 1793287030.8656394, "policy": "market_feed_assumed", "condition": "mlp", "seed": 2, "status": "started"}
+{"time": 1793287031.6210053, "policy": "market_feed_assumed", "condition": "mlp", "seed": 2, "status": "completed", "origin": "trained"}
+{"time": 1793287031.6252184, "policy": "market_feed_assumed", "condition": "transformer", "seed": 2, "status": "started"}
+{"time": 1793287050.196661, "policy": "market_feed_assumed", "condition": "transformer", "seed": 2, "status": "completed", "origin": "trained"}
+{"time": 1793287050.1994832, "policy": "market_feed_assumed", "condition": "mlp", "seed": 3, "status": "started"}
+{"time": 1793287051.0364723, "policy": "market_feed_assumed", "condition": "mlp", "seed": 3, "status": "completed", "origin": "trained"}
+{"time": 1793287051.0432482, "policy": "market_feed_assumed", "condition": "transformer", "seed": 3, "status": "started"}
+{"time": 1793287066.815041, "policy": "market_feed_assumed", "condition": "transformer", "seed": 3, "status": "completed", "origin": "trained"}
+{"time": 1793287066.8175006, "policy": "market_feed_assumed", "condition": "mlp", "seed": 4, "status": "started"}
+{"time": 1793287068.3284283, "policy": "market_feed_assumed", "condition": "mlp", "seed": 4, "status": "completed", "origin": "trained"}
+{"time": 1793287068.3327997, "policy": "market_feed_assumed", "condition": "transformer", "seed": 4, "status": "started"}
+{"time": 1793287086.9645593, "policy": "market_feed_assumed", "condition": "transformer", "seed": 4, "status": "completed", "origin": "trained"}

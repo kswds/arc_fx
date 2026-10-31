@@ -1,0 +1,2 @@
+model,seed,patch_len,selected,n_trainable_params,best_val_loss,best_selection_score,train_seconds
+gnn,456,,1,23594,0.6930995517306857,0.6881272234864109,15.950829200446606

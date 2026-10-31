@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "completed_conditions": 60,
+  "checkpoint_prediction_recomputed": true,
+  "common_all_seeds": true,
+  "calibration_fairness": true,
+  "scope_denominators_matched": true
+}

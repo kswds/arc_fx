@@ -1,0 +1,110 @@
+{"time": 1793269316.8022509, "run": "original_legacy__dev1__s0", "status": "started", "spec": {"name": "original_legacy", "encoder": "original", "loss": "legacy", "legacy_alignment": true}, "seed": 0, "fold": "dev1"}
+{"time": 1793269346.0352612, "run": "original_legacy__dev1__s0", "status": "completed", "seconds": 27.41120140068233}
+{"time": 1793269346.0512927, "run": "original_legacy__dev2__s0", "status": "started", "spec": {"name": "original_legacy", "encoder": "original", "loss": "legacy", "legacy_alignment": true}, "seed": 0, "fold": "dev2"}
+{"time": 1793269413.4498851, "run": "original_legacy__dev2__s0", "status": "completed", "seconds": 65.12368750013411}
+{"time": 1793269413.4612384, "run": "aligned_active__dev1__s0", "status": "started", "spec": {"name": "aligned_active", "encoder": "original", "loss": "active"}, "seed": 0, "fold": "dev1"}
+{"time": 1793269450.9979062, "run": "aligned_active__dev1__s0", "status": "completed", "seconds": 35.87786710076034}
+{"time": 1793269451.0121264, "run": "aligned_active__dev2__s0", "status": "started", "spec": {"name": "aligned_active", "encoder": "original", "loss": "active"}, "seed": 0, "fold": "dev2"}
+{"time": 1793269512.8895488, "run": "aligned_active__dev2__s0", "status": "completed", "seconds": 59.75200719945133}
+{"time": 1793269512.900423, "run": "all_bce__dev1__s0", "status": "started", "spec": {"name": "all_bce", "encoder": "original", "loss": "bce"}, "seed": 0, "fold": "dev1"}
+{"time": 1793269549.9004786, "run": "all_bce__dev1__s0", "status": "completed", "seconds": 35.322548100724816}
+{"time": 1793269549.9129853, "run": "all_bce__dev2__s0", "status": "started", "spec": {"name": "all_bce", "encoder": "original", "loss": "bce"}, "seed": 0, "fold": "dev2"}
+{"time": 1793269625.0251412, "run": "all_bce__dev2__s0", "status": "completed", "seconds": 73.18405750021338}
+{"time": 1793269625.035875, "run": "dual_003__dev1__s0", "status": "started", "spec": {"name": "dual_003", "encoder": "original", "loss": "dual_0.03"}, "seed": 0, "fold": "dev1"}
+{"time": 1793269662.3680139, "run": "dual_003__dev1__s0", "status": "completed", "seconds": 35.33793620020151}
+{"time": 1793269662.3813522, "run": "dual_003__dev2__s0", "status": "started", "spec": {"name": "dual_003", "encoder": "original", "loss": "dual_0.03"}, "seed": 0, "fold": "dev2"}
+{"time": 1793269736.774708, "run": "dual_003__dev2__s0", "status": "completed", "seconds": 72.28067329898477}
+{"time": 1793269736.7904112, "run": "dual_010__dev1__s0", "status": "started", "spec": {"name": "dual_010", "encoder": "original", "loss": "dual_0.1"}, "seed": 0, "fold": "dev1"}
+{"time": 1793269773.9678683, "run": "dual_010__dev1__s0", "status": "completed", "seconds": 35.50724229961634}
+{"time": 1793269773.9768488, "run": "dual_010__dev2__s0", "status": "started", "spec": {"name": "dual_010", "encoder": "original", "loss": "dual_0.1"}, "seed": 0, "fold": "dev2"}
+{"time": 1793269848.0873964, "run": "dual_010__dev2__s0", "status": "completed", "seconds": 71.97982170060277}
+{"time": 1793269848.1006362, "run": "compact_gru__dev1__s0", "status": "started", "spec": {"name": "compact_gru", "encoder": "gru", "loss": "bce", "graph": "topk"}, "seed": 0, "fold": "dev1"}
+{"time": 1793269851.6584723, "run": "compact_gru__dev1__s0", "status": "completed", "seconds": 3.2461912017315626}
+{"time": 1793269851.6724095, "run": "compact_gru__dev2__s0", "status": "started", "spec": {"name": "compact_gru", "encoder": "gru", "loss": "bce", "graph": "topk"}, "seed": 0, "fold": "dev2"}
+{"time": 1793269858.199625, "run": "compact_gru__dev2__s0", "status": "completed", "seconds": 6.166807800531387}
+{"time": 1793269858.209281, "run": "temporal_mlp__dev1__s0", "status": "started", "spec": {"name": "temporal_mlp", "encoder": "mlp", "loss": "bce", "graph": "topk"}, "seed": 0, "fold": "dev1"}
+{"time": 1793269859.9726758, "run": "temporal_mlp__dev1__s0", "status": "completed", "seconds": 1.6233930997550488}
+{"time": 1793269859.9832134, "run": "temporal_mlp__dev2__s0", "status": "started", "spec": {"name": "temporal_mlp", "encoder": "mlp", "loss": "bce", "graph": "topk"}, "seed": 0, "fold": "dev2"}
+{"time": 1793269861.7154357, "run": "temporal_mlp__dev2__s0", "status": "completed", "seconds": 1.568818898871541}
+{"time": 1793269861.7259939, "run": "original_residual__dev1__s0", "status": "started", "spec": {"name": "original_residual", "encoder": "original", "loss": "bce", "residual": true}, "seed": 0, "fold": "dev1"}
+{"time": 1793269894.4147584, "run": "original_residual__dev1__s0", "status": "completed", "seconds": 30.81226189993322}
+{"time": 1793269894.4255464, "run": "original_residual__dev2__s0", "status": "started", "spec": {"name": "original_residual", "encoder": "original", "loss": "bce", "residual": true}, "seed": 0, "fold": "dev2"}
+{"time": 1793269970.6137962, "run": "original_residual__dev2__s0", "status": "completed", "seconds": 73.903688499704}
+{"time": 1793269970.645401, "run": "dense_signed__dev1__s0", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 0, "fold": "dev1"}
+{"time": 1793269972.232021, "run": "dense_signed__dev1__s0", "status": "completed", "seconds": 1.4125648010522127}
+{"time": 1793269972.2422893, "run": "dense_signed__dev2__s0", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 0, "fold": "dev2"}
+{"time": 1793269973.9696043, "run": "dense_signed__dev2__s0", "status": "completed", "seconds": 1.545313399285078}
+{"time": 1793269973.980899, "run": "soft_threshold__dev1__s0", "status": "started", "spec": {"name": "soft_threshold", "encoder": "mlp", "loss": "bce", "graph": "soft"}, "seed": 0, "fold": "dev1"}
+{"time": 1793269975.803546, "run": "soft_threshold__dev1__s0", "status": "completed", "seconds": 1.678990500047803}
+{"time": 1793269975.8130825, "run": "soft_threshold__dev2__s0", "status": "started", "spec": {"name": "soft_threshold", "encoder": "mlp", "loss": "bce", "graph": "soft"}, "seed": 0, "fold": "dev2"}
+{"time": 1793269978.5446203, "run": "soft_threshold__dev2__s0", "status": "completed", "seconds": 2.6188488993793726}
+{"time": 1793269978.5518854, "run": "static_qk__dev1__s0", "status": "started", "spec": {"name": "static_qk", "encoder": "mlp", "loss": "bce", "graph": "topk", "anchor": true}, "seed": 0, "fold": "dev1"}
+{"time": 1793269980.5473728, "run": "static_qk__dev1__s0", "status": "completed", "seconds": 1.8487164005637169}
+{"time": 1793269980.5586314, "run": "static_qk__dev2__s0", "status": "started", "spec": {"name": "static_qk", "encoder": "mlp", "loss": "bce", "graph": "topk", "anchor": true}, "seed": 0, "fold": "dev2"}
+{"time": 1793269982.0931087, "run": "static_qk__dev2__s0", "status": "completed", "seconds": 1.3897200003266335}
+{"time": 1793269982.1020424, "run": "lowdim_message__dev1__s0", "status": "started", "spec": {"name": "lowdim_message", "encoder": "mlp", "loss": "bce", "graph": "topk", "lowdim": true}, "seed": 0, "fold": "dev1"}
+{"time": 1793269983.9243414, "run": "lowdim_message__dev1__s0", "status": "completed", "seconds": 1.6659923009574413}
+{"time": 1793269983.9353907, "run": "lowdim_message__dev2__s0", "status": "started", "spec": {"name": "lowdim_message", "encoder": "mlp", "loss": "bce", "graph": "topk", "lowdim": true}, "seed": 0, "fold": "dev2"}
+{"time": 1793269985.434185, "run": "lowdim_message__dev2__s0", "status": "completed", "seconds": 1.3784445002675056}
+{"time": 1793269985.5319464, "run": "soft_threshold__dev1__s1", "status": "started", "spec": {"name": "soft_threshold", "encoder": "mlp", "loss": "bce", "graph": "soft"}, "seed": 1, "fold": "dev1"}
+{"time": 1793269988.1739125, "run": "soft_threshold__dev1__s1", "status": "completed", "seconds": 2.511809501796961}
+{"time": 1793269988.181201, "run": "soft_threshold__dev1__s2", "status": "started", "spec": {"name": "soft_threshold", "encoder": "mlp", "loss": "bce", "graph": "soft"}, "seed": 2, "fold": "dev1"}
+{"time": 1793269990.469269, "run": "soft_threshold__dev1__s2", "status": "completed", "seconds": 2.135479900985956}
+{"time": 1793269990.4808557, "run": "soft_threshold__dev2__s1", "status": "started", "spec": {"name": "soft_threshold", "encoder": "mlp", "loss": "bce", "graph": "soft"}, "seed": 1, "fold": "dev2"}
+{"time": 1793269992.1901603, "run": "soft_threshold__dev2__s1", "status": "completed", "seconds": 1.55519700050354}
+{"time": 1793269992.1977108, "run": "soft_threshold__dev2__s2", "status": "started", "spec": {"name": "soft_threshold", "encoder": "mlp", "loss": "bce", "graph": "soft"}, "seed": 2, "fold": "dev2"}
+{"time": 1793269994.9161468, "run": "soft_threshold__dev2__s2", "status": "completed", "seconds": 2.5469456017017365}
+{"time": 1793269994.9273102, "run": "dense_signed__dev1__s1", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 1, "fold": "dev1"}
+{"time": 1793269999.254105, "run": "dense_signed__dev1__s1", "status": "completed", "seconds": 4.153688000515103}
+{"time": 1793269999.2633483, "run": "dense_signed__dev1__s2", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 2, "fold": "dev1"}
+{"time": 1793270001.5478446, "run": "dense_signed__dev1__s2", "status": "completed", "seconds": 2.12569610029459}
+{"time": 1793270001.5612028, "run": "dense_signed__dev2__s1", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 1, "fold": "dev2"}
+{"time": 1793270003.0710247, "run": "dense_signed__dev2__s1", "status": "completed", "seconds": 1.378957198932767}
+{"time": 1793270003.0782495, "run": "dense_signed__dev2__s2", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 2, "fold": "dev2"}
+{"time": 1793270005.8211281, "run": "dense_signed__dev2__s2", "status": "completed", "seconds": 2.576187800616026}
+{"time": 1793270005.832618, "run": "original_legacy__dev1__s1", "status": "started", "spec": {"name": "original_legacy", "encoder": "original", "loss": "legacy", "legacy_alignment": true}, "seed": 1, "fold": "dev1"}
+{"time": 1793270038.1550126, "run": "original_legacy__dev1__s1", "status": "completed", "seconds": 30.578568700701}
+{"time": 1793270038.1634204, "run": "original_legacy__dev1__s2", "status": "started", "spec": {"name": "original_legacy", "encoder": "original", "loss": "legacy", "legacy_alignment": true}, "seed": 2, "fold": "dev1"}
+{"time": 1793270075.6843736, "run": "original_legacy__dev1__s2", "status": "completed", "seconds": 35.768219500780106}
+{"time": 1793270075.700878, "run": "original_legacy__dev2__s1", "status": "started", "spec": {"name": "original_legacy", "encoder": "original", "loss": "legacy", "legacy_alignment": true}, "seed": 1, "fold": "dev2"}
+{"time": 1793270144.2534008, "run": "original_legacy__dev2__s1", "status": "completed", "seconds": 66.44089670106769}
+{"time": 1793270144.2659824, "run": "original_legacy__dev2__s2", "status": "started", "spec": {"name": "original_legacy", "encoder": "original", "loss": "legacy", "legacy_alignment": true}, "seed": 2, "fold": "dev2"}
+{"time": 1793270184.471753, "run": "original_legacy__dev2__s2", "status": "completed", "seconds": 38.57382209971547}
+{"time": 1793270184.4808617, "run": "dense_signed__dev1__s3", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 3, "fold": "dev1"}
+{"time": 1793270186.28741, "run": "dense_signed__dev1__s3", "status": "completed", "seconds": 1.6869288999587297}
+{"time": 1793270186.2960386, "run": "dense_signed__dev1__s4", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 4, "fold": "dev1"}
+{"time": 1793270187.6826177, "run": "dense_signed__dev1__s4", "status": "completed", "seconds": 1.2566174995154142}
+{"time": 1793270187.6927419, "run": "dense_signed__dev2__s3", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 3, "fold": "dev2"}
+{"time": 1793270189.2799008, "run": "dense_signed__dev2__s3", "status": "completed", "seconds": 1.4765056986361742}
+{"time": 1793270189.2879868, "run": "dense_signed__dev2__s4", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 4, "fold": "dev2"}
+{"time": 1793270190.9351294, "run": "dense_signed__dev2__s4", "status": "completed", "seconds": 1.492578899487853}
+{"time": 1793270191.3814785, "run": "soft_threshold__final__s0", "status": "started", "spec": {"name": "soft_threshold", "encoder": "mlp", "loss": "bce", "graph": "soft"}, "seed": 0, "fold": "final"}
+{"time": 1793270193.042663, "run": "soft_threshold__final__s0", "status": "completed", "seconds": 1.3934335000813007}
+{"time": 1793270193.0513952, "run": "soft_threshold__final__s1", "status": "started", "spec": {"name": "soft_threshold", "encoder": "mlp", "loss": "bce", "graph": "soft"}, "seed": 1, "fold": "final"}
+{"time": 1793270195.1478126, "run": "soft_threshold__final__s1", "status": "completed", "seconds": 1.8613827005028725}
+{"time": 1793270195.1574864, "run": "soft_threshold__final__s2", "status": "started", "spec": {"name": "soft_threshold", "encoder": "mlp", "loss": "bce", "graph": "soft"}, "seed": 2, "fold": "final"}
+{"time": 1793270198.211517, "run": "soft_threshold__final__s2", "status": "completed", "seconds": 2.8294466994702816}
+{"time": 1793270198.2204077, "run": "dense_signed__final__s0", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 0, "fold": "final"}
+{"time": 1793270199.7882357, "run": "dense_signed__final__s0", "status": "completed", "seconds": 1.3482261002063751}
+{"time": 1793270199.7978182, "run": "dense_signed__final__s1", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 1, "fold": "final"}
+{"time": 1793270202.1353767, "run": "dense_signed__final__s1", "status": "completed", "seconds": 2.0904233995825052}
+{"time": 1793270202.1440673, "run": "dense_signed__final__s2", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 2, "fold": "final"}
+{"time": 1793270204.7550633, "run": "dense_signed__final__s2", "status": "completed", "seconds": 2.383756600320339}
+{"time": 1793270204.7628515, "run": "dense_signed__final__s3", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 3, "fold": "final"}
+{"time": 1793270210.5405354, "run": "dense_signed__final__s3", "status": "completed", "seconds": 5.542959399521351}
+{"time": 1793270210.549931, "run": "dense_signed__final__s4", "status": "started", "spec": {"name": "dense_signed", "encoder": "mlp", "loss": "bce", "graph": "dense"}, "seed": 4, "fold": "final"}
+{"time": 1793270216.4792094, "run": "dense_signed__final__s4", "status": "completed", "seconds": 5.708738699555397}
+{"time": 1793270216.488608, "run": "original_legacy__final__s0", "status": "started", "spec": {"name": "original_legacy", "encoder": "original", "loss": "legacy", "legacy_alignment": true}, "seed": 0, "fold": "final"}
+{"time": 1793270255.6441274, "run": "original_legacy__final__s0", "status": "completed", "seconds": 36.246148800477386}
+{"time": 1793270255.6540246, "run": "original_legacy__final__s1", "status": "started", "spec": {"name": "original_legacy", "encoder": "original", "loss": "legacy", "legacy_alignment": true}, "seed": 1, "fold": "final"}
+{"time": 1793270288.8845587, "run": "original_legacy__final__s1", "status": "completed", "seconds": 30.36409110017121}
+{"time": 1793270288.8961966, "run": "original_legacy__final__s2", "status": "started", "spec": {"name": "original_legacy", "encoder": "original", "loss": "legacy", "legacy_alignment": true}, "seed": 2, "fold": "final"}
+{"time": 1793270321.5974123, "run": "original_legacy__final__s2", "status": "completed", "seconds": 29.9196113999933}
+{"time": 1793270321.6090505, "run": "winner_no_graph__final__s0", "status": "started", "spec": {"name": "winner_no_graph", "encoder": "mlp", "loss": "bce", "graph": "dense", "no_graph": true}, "seed": 0, "fold": "final"}
+{"time": 1793270323.6672251, "run": "winner_no_graph__final__s0", "status": "completed", "seconds": 1.840277999639511}
+{"time": 1793270323.6748695, "run": "winner_no_graph__final__s1", "status": "started", "spec": {"name": "winner_no_graph", "encoder": "mlp", "loss": "bce", "graph": "dense", "no_graph": true}, "seed": 1, "fold": "final"}
+{"time": 1793270325.7081368, "run": "winner_no_graph__final__s1", "status": "completed", "seconds": 1.7830405998975039}
+{"time": 1793270325.7192352, "run": "winner_no_graph__final__s2", "status": "started", "spec": {"name": "winner_no_graph", "encoder": "mlp", "loss": "bce", "graph": "dense", "no_graph": true}, "seed": 2, "fold": "final"}
+{"time": 1793270329.2012386, "run": "winner_no_graph__final__s2", "status": "completed", "seconds": 3.2869365997612476}
+{"time": 1793270329.3569756, "status": "baseline_complete", "neural_fits": 0, "logistic_fits": 10, "majority_estimates": 10}
+{"time": 1793270526.708726, "status": "baseline_complete", "neural_fits": 0, "logistic_fits": 10, "majority_estimates": 10}

@@ -1,0 +1,59 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 20,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "hidden": 32,
+  "dropout": 0.25,
+  "lookback": 10,
+  "threads": 2,
+  "bootstrap_repeats": 2000,
+  "blocks": [
+    5,
+    20,
+    60
+  ],
+  "fx_lag_calendar_days": 14,
+  "nonfx_extra_panel_lag": 1,
+  "selection": "validation sign-hit; tie lower raw-label BCE",
+  "primary_effects": [
+    "A4-A3",
+    "A3-A1",
+    "A4-A2"
+  ],
+  "policies": [
+    "conservative_lag14",
+    "market_feed_assumed"
+  ],
+  "matched_baselines": [
+    "mlp",
+    "transformer"
+  ],
+  "subset_min_dates": 126,
+  "subset_sizes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "subset_seed_selection": false,
+  "subset_objectives": [
+    "hit",
+    "minimum_advantage",
+    "graph_advantage"
+  ]
+}

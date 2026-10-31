@@ -1,0 +1,80 @@
+{"time": 1793450877.7440972, "policy": "conservative_lag14", "model": "dynamic_graph", "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793450879.0170884, "policy": "conservative_lag14", "model": "dynamic_graph", "seed": 0, "status": "completed"}
+{"time": 1793450879.0379813, "policy": "conservative_lag14", "model": "no_graph", "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793450879.923973, "policy": "conservative_lag14", "model": "no_graph", "seed": 0, "status": "completed"}
+{"time": 1793450879.9272425, "policy": "conservative_lag14", "model": "mlp", "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793450880.5117161, "policy": "conservative_lag14", "model": "mlp", "seed": 0, "status": "completed"}
+{"time": 1793450880.5173202, "policy": "conservative_lag14", "model": "transformer", "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793450884.0696473, "policy": "conservative_lag14", "model": "transformer", "seed": 0, "status": "completed"}
+{"time": 1793450884.0729737, "policy": "conservative_lag14", "model": "dynamic_graph", "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793450884.9619477, "policy": "conservative_lag14", "model": "dynamic_graph", "seed": 1, "status": "completed"}
+{"time": 1793450884.9660811, "policy": "conservative_lag14", "model": "no_graph", "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793450885.9099555, "policy": "conservative_lag14", "model": "no_graph", "seed": 1, "status": "completed"}
+{"time": 1793450885.9125097, "policy": "conservative_lag14", "model": "mlp", "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793450886.4915328, "policy": "conservative_lag14", "model": "mlp", "seed": 1, "status": "completed"}
+{"time": 1793450886.4969473, "policy": "conservative_lag14", "model": "transformer", "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793450896.1215978, "policy": "conservative_lag14", "model": "transformer", "seed": 1, "status": "completed"}
+{"time": 1793450896.124931, "policy": "conservative_lag14", "model": "dynamic_graph", "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793450897.0220711, "policy": "conservative_lag14", "model": "dynamic_graph", "seed": 2, "status": "completed"}
+{"time": 1793450897.0252943, "policy": "conservative_lag14", "model": "no_graph", "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793450897.902161, "policy": "conservative_lag14", "model": "no_graph", "seed": 2, "status": "completed"}
+{"time": 1793450897.9057593, "policy": "conservative_lag14", "model": "mlp", "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793450898.5313494, "policy": "conservative_lag14", "model": "mlp", "seed": 2, "status": "completed"}
+{"time": 1793450898.5361896, "policy": "conservative_lag14", "model": "transformer", "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793450908.2687001, "policy": "conservative_lag14", "model": "transformer", "seed": 2, "status": "completed"}
+{"time": 1793450908.2718563, "policy": "conservative_lag14", "model": "dynamic_graph", "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793450909.204821, "policy": "conservative_lag14", "model": "dynamic_graph", "seed": 3, "status": "completed"}
+{"time": 1793450909.208243, "policy": "conservative_lag14", "model": "no_graph", "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793450910.0769017, "policy": "conservative_lag14", "model": "no_graph", "seed": 3, "status": "completed"}
+{"time": 1793450910.0796716, "policy": "conservative_lag14", "model": "mlp", "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793450910.7462702, "policy": "conservative_lag14", "model": "mlp", "seed": 3, "status": "completed"}
+{"time": 1793450910.7528722, "policy": "conservative_lag14", "model": "transformer", "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793450920.58794, "policy": "conservative_lag14", "model": "transformer", "seed": 3, "status": "completed"}
+{"time": 1793450920.591887, "policy": "conservative_lag14", "model": "dynamic_graph", "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793450921.606595, "policy": "conservative_lag14", "model": "dynamic_graph", "seed": 4, "status": "completed"}
+{"time": 1793450921.609702, "policy": "conservative_lag14", "model": "no_graph", "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793450922.555527, "policy": "conservative_lag14", "model": "no_graph", "seed": 4, "status": "completed"}
+{"time": 1793450922.5593004, "policy": "conservative_lag14", "model": "mlp", "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793450923.1737006, "policy": "conservative_lag14", "model": "mlp", "seed": 4, "status": "completed"}
+{"time": 1793450923.1779158, "policy": "conservative_lag14", "model": "transformer", "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793450933.0542433, "policy": "conservative_lag14", "model": "transformer", "seed": 4, "status": "completed"}
+{"time": 1793450933.0593925, "policy": "market_feed_assumed", "model": "dynamic_graph", "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793450934.04073, "policy": "market_feed_assumed", "model": "dynamic_graph", "seed": 0, "status": "completed"}
+{"time": 1793450934.043953, "policy": "market_feed_assumed", "model": "no_graph", "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793450934.959137, "policy": "market_feed_assumed", "model": "no_graph", "seed": 0, "status": "completed"}
+{"time": 1793450934.9620347, "policy": "market_feed_assumed", "model": "mlp", "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793450935.5174952, "policy": "market_feed_assumed", "model": "mlp", "seed": 0, "status": "completed"}
+{"time": 1793450935.5225613, "policy": "market_feed_assumed", "model": "transformer", "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793450945.988591, "policy": "market_feed_assumed", "model": "transformer", "seed": 0, "status": "completed"}
+{"time": 1793450945.9928243, "policy": "market_feed_assumed", "model": "dynamic_graph", "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793450947.2197921, "policy": "market_feed_assumed", "model": "dynamic_graph", "seed": 1, "status": "completed"}
+{"time": 1793450947.2234178, "policy": "market_feed_assumed", "model": "no_graph", "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793450948.36822, "policy": "market_feed_assumed", "model": "no_graph", "seed": 1, "status": "completed"}
+{"time": 1793450948.3712876, "policy": "market_feed_assumed", "model": "mlp", "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793450949.156469, "policy": "market_feed_assumed", "model": "mlp", "seed": 1, "status": "completed"}
+{"time": 1793450949.161094, "policy": "market_feed_assumed", "model": "transformer", "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793450957.1021357, "policy": "market_feed_assumed", "model": "transformer", "seed": 1, "status": "completed"}
+{"time": 1793450957.105547, "policy": "market_feed_assumed", "model": "dynamic_graph", "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793450958.1544294, "policy": "market_feed_assumed", "model": "dynamic_graph", "seed": 2, "status": "completed"}
+{"time": 1793450958.1580553, "policy": "market_feed_assumed", "model": "no_graph", "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793450959.1219451, "policy": "market_feed_assumed", "model": "no_graph", "seed": 2, "status": "completed"}
+{"time": 1793450959.126176, "policy": "market_feed_assumed", "model": "mlp", "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793450959.7443182, "policy": "market_feed_assumed", "model": "mlp", "seed": 2, "status": "completed"}
+{"time": 1793450959.749211, "policy": "market_feed_assumed", "model": "transformer", "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793450963.5971766, "policy": "market_feed_assumed", "model": "transformer", "seed": 2, "status": "completed"}
+{"time": 1793450963.6017566, "policy": "market_feed_assumed", "model": "dynamic_graph", "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793450964.6172044, "policy": "market_feed_assumed", "model": "dynamic_graph", "seed": 3, "status": "completed"}
+{"time": 1793450964.6210046, "policy": "market_feed_assumed", "model": "no_graph", "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793450965.6309948, "policy": "market_feed_assumed", "model": "no_graph", "seed": 3, "status": "completed"}
+{"time": 1793450965.6345608, "policy": "market_feed_assumed", "model": "mlp", "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793450966.2017622, "policy": "market_feed_assumed", "model": "mlp", "seed": 3, "status": "completed"}
+{"time": 1793450966.2062871, "policy": "market_feed_assumed", "model": "transformer", "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793450971.6446774, "policy": "market_feed_assumed", "model": "transformer", "seed": 3, "status": "completed"}
+{"time": 1793450971.6483746, "policy": "market_feed_assumed", "model": "dynamic_graph", "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793450972.6966639, "policy": "market_feed_assumed", "model": "dynamic_graph", "seed": 4, "status": "completed"}
+{"time": 1793450972.7001793, "policy": "market_feed_assumed", "model": "no_graph", "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793450973.6553931, "policy": "market_feed_assumed", "model": "no_graph", "seed": 4, "status": "completed"}
+{"time": 1793450973.6582508, "policy": "market_feed_assumed", "model": "mlp", "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793450974.2286918, "policy": "market_feed_assumed", "model": "mlp", "seed": 4, "status": "completed"}
+{"time": 1793450974.2344487, "policy": "market_feed_assumed", "model": "transformer", "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793450980.5059893, "policy": "market_feed_assumed", "model": "transformer", "seed": 4, "status": "completed"}

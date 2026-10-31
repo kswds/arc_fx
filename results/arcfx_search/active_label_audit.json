@@ -1,0 +1,7 @@
+{
+  "q40_normalized": 0.39040645956993103,
+  "binary_label_disagreement": 0.008015993907083015,
+  "three_way_sign_disagreement": 0.010643564356435644,
+  "active_three_way_sign_disagreement": 0.0,
+  "interpretation": "Centering changes tiny-move labels, but zero active-label discrepancies: not established as the cause of historical near-chance results."
+}

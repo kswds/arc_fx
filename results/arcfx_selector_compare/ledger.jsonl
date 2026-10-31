@@ -1,0 +1,142 @@
+{"time": 1793452899.436064, "backbone": "compact_mlp", "selector": "topk", "tau": null, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793452901.1376097, "backbone": "compact_mlp", "selector": "topk", "tau": null, "seed": 0, "status": "completed", "seconds": 1.5875034984201193}
+{"time": 1793452901.1409595, "backbone": "compact_mlp", "selector": "dense_signed", "tau": null, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793452902.8524916, "backbone": "compact_mlp", "selector": "dense_signed", "tau": null, "seed": 0, "status": "completed", "seconds": 1.6230574995279312}
+{"time": 1793452902.8559966, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.0, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793452904.0433936, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.0, "seed": 0, "status": "completed", "seconds": 1.0948349013924599}
+{"time": 1793452904.0467265, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.025, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793452905.197356, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.025, "seed": 0, "status": "completed", "seconds": 1.0607191007584333}
+{"time": 1793452905.2001293, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.05, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793452906.901199, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.05, "seed": 0, "status": "completed", "seconds": 1.6070211995393038}
+{"time": 1793452906.9038923, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.1, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793452908.5076737, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.1, "seed": 0, "status": "completed", "seconds": 1.5122312009334564}
+{"time": 1793452908.510518, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.2, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793452910.4212089, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.2, "seed": 0, "status": "completed", "seconds": 1.8238073997199535}
+{"time": 1793452910.4240868, "backbone": "compact_mlp", "selector": "topk", "tau": null, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793452911.7989004, "backbone": "compact_mlp", "selector": "topk", "tau": null, "seed": 1, "status": "completed", "seconds": 1.2815310005098581}
+{"time": 1793452911.801817, "backbone": "compact_mlp", "selector": "dense_signed", "tau": null, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793452912.830854, "backbone": "compact_mlp", "selector": "dense_signed", "tau": null, "seed": 1, "status": "completed", "seconds": 0.8807898983359337}
+{"time": 1793452912.8357322, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.0, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793452913.890579, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.0, "seed": 1, "status": "completed", "seconds": 0.9558632988482714}
+{"time": 1793452913.8940797, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.025, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793452914.8952026, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.025, "seed": 1, "status": "completed", "seconds": 0.9106855001300573}
+{"time": 1793452914.898661, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.05, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793452915.8735926, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.05, "seed": 1, "status": "completed", "seconds": 0.8801493011415005}
+{"time": 1793452915.8764162, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.1, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793452916.8209548, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.1, "seed": 1, "status": "completed", "seconds": 0.8483156003057957}
+{"time": 1793452916.824029, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.2, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793452917.930483, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.2, "seed": 1, "status": "completed", "seconds": 1.0095204003155231}
+{"time": 1793452917.9343832, "backbone": "compact_mlp", "selector": "topk", "tau": null, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793452919.8805766, "backbone": "compact_mlp", "selector": "topk", "tau": null, "seed": 2, "status": "completed", "seconds": 1.8531472012400627}
+{"time": 1793452919.8835332, "backbone": "compact_mlp", "selector": "dense_signed", "tau": null, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793452921.6518197, "backbone": "compact_mlp", "selector": "dense_signed", "tau": null, "seed": 2, "status": "completed", "seconds": 1.6686771009117365}
+{"time": 1793452921.6553075, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.0, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793452924.1636786, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.0, "seed": 2, "status": "completed", "seconds": 2.4175572004169226}
+{"time": 1793452924.1669612, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.025, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793452926.6220355, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.025, "seed": 2, "status": "completed", "seconds": 2.366516500711441}
+{"time": 1793452926.6248906, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.05, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793452928.4570844, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.05, "seed": 2, "status": "completed", "seconds": 1.731853699311614}
+{"time": 1793452928.4605043, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.1, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793452930.3572934, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.1, "seed": 2, "status": "completed", "seconds": 1.8077810015529394}
+{"time": 1793452930.3606083, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.2, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793452932.2430134, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.2, "seed": 2, "status": "completed", "seconds": 1.7850502002984285}
+{"time": 1793452932.2457662, "backbone": "compact_mlp", "selector": "topk", "tau": null, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793452934.051725, "backbone": "compact_mlp", "selector": "topk", "tau": null, "seed": 3, "status": "completed", "seconds": 1.711584199219942}
+{"time": 1793452934.0548556, "backbone": "compact_mlp", "selector": "dense_signed", "tau": null, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793452935.712477, "backbone": "compact_mlp", "selector": "dense_signed", "tau": null, "seed": 3, "status": "completed", "seconds": 1.5565204005688429}
+{"time": 1793452935.7154646, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.0, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793452937.227026, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.0, "seed": 3, "status": "completed", "seconds": 1.4250827003270388}
+{"time": 1793452937.230013, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.025, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793452938.6438942, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.025, "seed": 3, "status": "completed", "seconds": 1.3250456992536783}
+{"time": 1793452938.6469245, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.05, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793452940.1934068, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.05, "seed": 3, "status": "completed", "seconds": 1.4519308004528284}
+{"time": 1793452940.1969764, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.1, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793452941.7376292, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.1, "seed": 3, "status": "completed", "seconds": 1.4529920984059572}
+{"time": 1793452941.7403383, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.2, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793452943.2002969, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.2, "seed": 3, "status": "completed", "seconds": 1.3504817001521587}
+{"time": 1793452943.2041872, "backbone": "compact_mlp", "selector": "topk", "tau": null, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793452945.8499608, "backbone": "compact_mlp", "selector": "topk", "tau": null, "seed": 4, "status": "completed", "seconds": 2.5402747001498938}
+{"time": 1793452945.8528154, "backbone": "compact_mlp", "selector": "dense_signed", "tau": null, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793452948.7301772, "backbone": "compact_mlp", "selector": "dense_signed", "tau": null, "seed": 4, "status": "completed", "seconds": 2.783960798755288}
+{"time": 1793452948.7328725, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.0, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793452950.3077428, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.0, "seed": 4, "status": "completed", "seconds": 1.4822501000016928}
+{"time": 1793452950.3104665, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.025, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793452953.0457811, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.025, "seed": 4, "status": "completed", "seconds": 2.638883700594306}
+{"time": 1793452953.0487196, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.05, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793452955.1092165, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.05, "seed": 4, "status": "completed", "seconds": 1.972164100036025}
+{"time": 1793452955.1118565, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.1, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793452956.096568, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.1, "seed": 4, "status": "completed", "seconds": 0.8903083000332117}
+{"time": 1793452956.0993676, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.2, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793452958.3189101, "backbone": "compact_mlp", "selector": "soft_threshold", "tau": 0.2, "seed": 4, "status": "completed", "seconds": 2.1345005985349417}
+{"time": 1793452958.3281941, "backbone": "original_arcfx", "selector": "topk", "tau": null, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793452995.7507787, "backbone": "original_arcfx", "selector": "topk", "tau": null, "seed": 0, "status": "completed", "seconds": 36.661936800926924}
+{"time": 1793452995.7617934, "backbone": "original_arcfx", "selector": "dense_signed", "tau": null, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793453032.5932662, "backbone": "original_arcfx", "selector": "dense_signed", "tau": null, "seed": 0, "status": "completed", "seconds": 36.06984539888799}
+{"time": 1793453032.601991, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.0, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793453070.3957002, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.0, "seed": 0, "status": "completed", "seconds": 37.02952009998262}
+{"time": 1793453070.4036689, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.025, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793453107.414639, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.025, "seed": 0, "status": "completed", "seconds": 36.213957998901606}
+{"time": 1793453107.424461, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.05, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793453165.7564435, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.05, "seed": 0, "status": "completed", "seconds": 57.586810199543834}
+{"time": 1793453165.765423, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.1, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793453202.877185, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.1, "seed": 0, "status": "completed", "seconds": 36.37806100025773}
+{"time": 1793453202.8854456, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.2, "seed": 0, "status": "started", "first_epoch": 1}
+{"time": 1793453232.3933685, "status": "orchestration_checkpoint_resume", "reason": "Partition independent trajectories across three CPU workers; no model/config changes."}
+{"time": 1793453238.498644, "worker": 1, "backbone": "original_arcfx", "selector": "dense_signed", "tau": null, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793453238.500339, "worker": 0, "backbone": "original_arcfx", "selector": "topk", "tau": null, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793453238.551358, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.2, "seed": 0, "status": "started", "first_epoch": 7}
+{"time": 1793453265.2223501, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.2, "seed": 0, "status": "completed", "seconds": 25.392971999943256}
+{"time": 1793453265.2428522, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.0, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793453288.6561189, "worker": 0, "backbone": "original_arcfx", "selector": "topk", "tau": null, "seed": 1, "status": "completed", "seconds": 48.73168230056763}
+{"time": 1793453288.679243, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.025, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793453301.519304, "worker": 1, "backbone": "original_arcfx", "selector": "dense_signed", "tau": null, "seed": 1, "status": "completed", "seconds": 61.633368199691176}
+{"time": 1793453301.5448878, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.05, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793453315.6322896, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.0, "seed": 1, "status": "completed", "seconds": 48.969901198521256}
+{"time": 1793453315.6520052, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.1, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793453339.208974, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.025, "seed": 1, "status": "completed", "seconds": 49.20782000012696}
+{"time": 1793453339.2300708, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.2, "seed": 1, "status": "started", "first_epoch": 1}
+{"time": 1793453364.2794337, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.05, "seed": 1, "status": "completed", "seconds": 61.446440398693085}
+{"time": 1793453364.3020685, "worker": 1, "backbone": "original_arcfx", "selector": "topk", "tau": null, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793453378.0404575, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.1, "seed": 1, "status": "completed", "seconds": 61.111259100958705}
+{"time": 1793453378.0581026, "worker": 2, "backbone": "original_arcfx", "selector": "dense_signed", "tau": null, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793453400.9537337, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.2, "seed": 1, "status": "completed", "seconds": 60.310143399983644}
+{"time": 1793453400.979567, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.0, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793453439.4870336, "worker": 2, "backbone": "original_arcfx", "selector": "dense_signed", "tau": null, "seed": 2, "status": "completed", "seconds": 60.069494899362326}
+{"time": 1793453439.5106294, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.05, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793453457.2996128, "worker": 1, "backbone": "original_arcfx", "selector": "topk", "tau": null, "seed": 2, "status": "completed", "seconds": 91.64303749985993}
+{"time": 1793453457.3239517, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.025, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793453462.396984, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.0, "seed": 2, "status": "completed", "seconds": 60.142176100984216}
+{"time": 1793453462.4155853, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.1, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793453495.0837946, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.05, "seed": 2, "status": "completed", "seconds": 54.144244000315666}
+{"time": 1793453495.1043742, "worker": 2, "backbone": "original_arcfx", "selector": "topk", "tau": null, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793453504.786125, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.1, "seed": 2, "status": "completed", "seconds": 41.02039910107851}
+{"time": 1793453504.8083715, "worker": 0, "backbone": "original_arcfx", "selector": "dense_signed", "tau": null, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793453519.2830124, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.025, "seed": 2, "status": "completed", "seconds": 60.64308639988303}
+{"time": 1793453519.3049414, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.2, "seed": 2, "status": "started", "first_epoch": 1}
+{"time": 1793453544.966653, "worker": 2, "backbone": "original_arcfx", "selector": "topk", "tau": null, "seed": 3, "status": "completed", "seconds": 48.56622529961169}
+{"time": 1793453544.9878643, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.025, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793453553.7971137, "worker": 0, "backbone": "original_arcfx", "selector": "dense_signed", "tau": null, "seed": 3, "status": "completed", "seconds": 47.69012759998441}
+{"time": 1793453553.8142035, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.05, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793453594.5635507, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.025, "seed": 3, "status": "completed", "seconds": 48.29872880131006}
+{"time": 1793453594.581297, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.2, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793453603.6129823, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.05, "seed": 3, "status": "completed", "seconds": 48.4984016995877}
+{"time": 1793453603.6367352, "worker": 0, "backbone": "original_arcfx", "selector": "topk", "tau": null, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793453612.3415189, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.2, "seed": 2, "status": "completed", "seconds": 91.73710929974914}
+{"time": 1793453612.363591, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.0, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793453639.517144, "worker": 0, "backbone": "original_arcfx", "selector": "topk", "tau": null, "seed": 4, "status": "completed", "seconds": 34.58350540138781}
+{"time": 1793453639.531287, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.025, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793453644.3510988, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.2, "seed": 3, "status": "completed", "seconds": 48.51012779958546}
+{"time": 1793453644.3671286, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.0, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793453662.1799448, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.0, "seed": 3, "status": "completed", "seconds": 48.53242210112512}
+{"time": 1793453662.2027764, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.1, "seed": 3, "status": "started", "first_epoch": 1}
+{"time": 1793453675.5382686, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.025, "seed": 4, "status": "completed", "seconds": 34.73129320144653}
+{"time": 1793453675.5517933, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.2, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793453680.517795, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.0, "seed": 4, "status": "completed", "seconds": 34.84214489907026}
+{"time": 1793453680.531126, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.1, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793453711.19101, "worker": 0, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.2, "seed": 4, "status": "completed", "seconds": 34.36233470030129}
+{"time": 1793453711.7588034, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.1, "seed": 3, "status": "completed", "seconds": 48.379176899790764}
+{"time": 1793453711.7750192, "worker": 1, "backbone": "original_arcfx", "selector": "dense_signed", "tau": null, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793453734.4199345, "worker": 2, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.1, "seed": 4, "status": "completed", "seconds": 52.89791729860008}
+{"time": 1793453738.2538378, "worker": 1, "backbone": "original_arcfx", "selector": "dense_signed", "tau": null, "seed": 4, "status": "completed", "seconds": 25.74953450076282}
+{"time": 1793453738.264558, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.05, "seed": 4, "status": "started", "first_epoch": 1}
+{"time": 1793453767.8473792, "worker": 1, "backbone": "original_arcfx", "selector": "soft_threshold", "tau": 0.05, "seed": 4, "status": "completed", "seconds": 28.875980000942945}

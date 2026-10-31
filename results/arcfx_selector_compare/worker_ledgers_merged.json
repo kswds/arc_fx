@@ -1,0 +1,9 @@
+{
+  "merged": true,
+  "rows": 58,
+  "hashes": {
+    "worker_0_ledger.jsonl": "eff73a380d85f8dc9cb37520f17dcd2d9189acf12bf06c72372c217686fb79b6",
+    "worker_1_ledger.jsonl": "f131708a2b09b8cf65f63066abff064e77ab2681e15114742d75e2c1128f7287",
+    "worker_2_ledger.jsonl": "5cef0044d10141cd8850e77960f13cd5f67895313080fe9fb48f0811c062599a"
+  }
+}

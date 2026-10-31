@@ -1,0 +1,109 @@
+{
+  "config": {
+    "backbones": [
+      "compact_mlp",
+      "original_arcfx"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "top_k": 3,
+    "tau_grid": [
+      0.0,
+      0.025,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "epochs": 20,
+    "patience": 4,
+    "batch_size": 256,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "clip_grad_norm": 1.0,
+    "threads": 2,
+    "lookback": 10,
+    "input_lag": 0,
+    "input_policy": "supplied PIT features, current decision row; same for all candidates, no new lag14",
+    "scaler_split": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "tau_selection": "maximum five-seed mean validation sign-hit; tie lower mean validation objective, then smaller tau",
+    "checkpoint": "validation sign-hit maximum; tie lower validation objective",
+    "optimizer": "AdamW constant learning rate; no validation-driven LR scheduler",
+    "overlap": "same train and test, same validation size; shift validation forward by floor(test length / 2)",
+    "primary_targets": "all 10 non-USD currencies against USD; no period/target filtering",
+    "maximum_reporting": "highest test seed within validation-selected model settings; marked post hoc",
+    "bootstrap_repeats": 2000,
+    "blocks": [
+      5,
+      20,
+      60
+    ]
+  },
+  "source_data_hashes": {
+    "src/arcfx_selector_models.py": "cda58740be77852de8f8ace3c07796956fd4ccf973b5776ec1caf0c66117b95a",
+    "src/arcfx_selector_compare.py": "869d20dffc42d23f8856c4b513296cca5299457d6544132051f12d56a0b4a86b",
+    "src/models/arc_fx.py": "6fca50244543ffbebbb4421129f965b6e4575b7224d11a7b45886ef41d52c363",
+    "src/training_core.py": "0cb8b4dc7ccf8c921643d4f4bd0e428a5c51e730f461c3904eac00aa5bcb1b49",
+    "src/data_pipeline.py": "dc5f023b53b9127ac32605dc3d071e67cd09e0eb3996ffdf99258d5fe838a3d3",
+    "src/arcfx_search_models.py": "05c66be25c8bae4cf02eeb19c32eca724bb60689d334f4353751392534e80217",
+    "data/processed/fx_panel_pit.csv": "22740b4dd23849c66d9891232ce8a5996eb3da002cfb61ea1d95c147016506ad",
+    "data/processed/nonfx_features_pit.csv": "7c068cddfb60462fcb0ab27df9c0c3ed603ba87d19ad90d0acc6c7b7ed60c373",
+    "configs/pit_main.yaml": "46633e154f3c2476c8d847cb3c2650c8c5102be084626b47a0ede895bd8d7677"
+  },
+  "periods": {
+    "train": {
+      "n_dates": 3145,
+      "decision_start": "2005-01-18",
+      "decision_end": "2017-07-24",
+      "return_end_start": "2005-01-19",
+      "return_end_end": "2017-07-25"
+    },
+    "test": {
+      "n_dates": 1049,
+      "decision_start": "2021-10-06",
+      "decision_end": "2025-12-17",
+      "return_end_start": "2021-10-07",
+      "return_end_end": "2025-12-18"
+    },
+    "validation": {
+      "pit_original": {
+        "n_dates": 1048,
+        "decision_start": "2017-07-25",
+        "decision_end": "2021-10-05",
+        "return_end_start": "2017-07-26",
+        "return_end_end": "2021-10-06"
+      },
+      "overlap50": {
+        "n_dates": 1048,
+        "decision_start": "2019-08-30",
+        "decision_end": "2023-11-09",
+        "return_end_start": "2019-09-03",
+        "return_end_end": "2023-11-13"
+      }
+    }
+  },
+  "validation_test_overlap": {
+    "pit_original": 0,
+    "overlap50": 524
+  },
+  "model_changes": "selection operator only within each backbone",
+  "original_loss_hyperparameters": {
+    "lambda_dir": 0.1,
+    "lambda_rank": 0.08,
+    "lambda_component": 0.0001,
+    "lambda_smooth": 0.001,
+    "lambda_static": 0.001,
+    "lambda_sparse": 0.0001,
+    "lambda_spectral": 0.001
+  },
+  "torch": "2.6.0+cpu",
+  "numpy": "2.2.4"
+}

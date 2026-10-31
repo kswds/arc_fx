@@ -1,0 +1,74 @@
+{
+  "backbone": "original_arcfx",
+  "selector": "soft_threshold",
+  "tau": 0.2,
+  "seed": 3,
+  "parameters": 160896,
+  "initial_state_hash": "735a0e1725e452436d3e72b94dddc66067dadae9fddc9b5945a24ee13eb730f4",
+  "initial_training_diagnostics": {
+    "mean_hit": 0.495703125,
+    "binary_accuracy": 0.498828125,
+    "validation_objective": 0.7116918563842773,
+    "zero_return_fraction": 0.005859375,
+    "pred_positive": 0.403125,
+    "actual_positive": 0.486328125,
+    "active_edge_fraction": 0.5603693181818182,
+    "mean_neighbors": 5.603693181818182,
+    "zero_neighbor_fraction": 0.01775568181818182,
+    "row_l1_max": 1.000000238418579,
+    "message_rms": 0.38522857427597046,
+    "gate_mean": 0.5037901401519775,
+    "gate_q01": 0.4548274576663971,
+    "gate_q99": 0.5606383681297302,
+    "prediction_std": 0.0026718408335000277,
+    "model_output_std": 0.3555692434310913
+  },
+  "trained_epochs": 7,
+  "seconds": 48.51012779958546,
+  "protocols": {
+    "pit_original": {
+      "validation": {
+        "mean_hit": 0.5146946564885496,
+        "binary_accuracy": 0.519942748091603,
+        "validation_objective": 0.6927025463744885,
+        "zero_return_fraction": 0.008110687022900763,
+        "pred_positive": 0.33883587786259545,
+        "actual_positive": 0.4963740458015267,
+        "active_edge_fraction": 0.933527064538515,
+        "mean_neighbors": 9.33527064538515,
+        "zero_neighbor_fraction": 0.017522553782095766,
+        "row_l1_max": 1.000000238418579,
+        "message_rms": 0.5810096859931946,
+        "gate_mean": 0.3812003433704376,
+        "gate_q01": 0.32136088609695435,
+        "gate_q99": 0.49384617805480957,
+        "prediction_std": 0.0005533446092158556,
+        "model_output_std": 0.07687635719776154
+      },
+      "best_epoch": 3,
+      "stop_epoch": 7
+    },
+    "overlap50": {
+      "validation": {
+        "mean_hit": 0.5117366412213741,
+        "binary_accuracy": 0.5155534351145038,
+        "validation_objective": 0.6934458617945664,
+        "zero_return_fraction": 0.006297709923664122,
+        "pred_positive": 0.4655534351145038,
+        "actual_positive": 0.4906488549618321,
+        "active_edge_fraction": 0.9229528105482304,
+        "mean_neighbors": 9.229528105482304,
+        "zero_neighbor_fraction": 0.01977793199167245,
+        "row_l1_max": 1.000000238418579,
+        "message_rms": 0.567031979560852,
+        "gate_mean": 0.4011308550834656,
+        "gate_q01": 0.33106449246406555,
+        "gate_q99": 0.49393466114997864,
+        "prediction_std": 0.00057686009677127,
+        "model_output_std": 0.0778946727514267
+      },
+      "best_epoch": 3,
+      "stop_epoch": 7
+    }
+  }
+}

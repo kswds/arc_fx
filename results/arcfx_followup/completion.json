@@ -1,0 +1,9 @@
+{
+  "total_model_conditions": 60,
+  "new_neural_fits": 52,
+  "reused_fits": 8,
+  "diagnostic_2x2_conditions": 40,
+  "matched_baseline_fits": 20,
+  "calibration_fits": 60,
+  "failures": 0
+}

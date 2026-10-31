@@ -1,0 +1,123 @@
+{
+  "validation": {
+    "train_mean": {
+      "mean_hit": 0.5041745730550284,
+      "binary_accuracy": 0.5079696394686907,
+      "bce": 0.6931819882845592,
+      "brier": 0.2500173085278662,
+      "auc": 0.5056558252125787,
+      "zero_return_fraction": 0.007020872865275142,
+      "zero_logit_fraction": 0.0,
+      "actual_positive": 0.5072106261859582,
+      "pred_positive": 0.6,
+      "logit_mean": 0.009533674782142043,
+      "logit_std": 0.042405558202604325,
+      "logit_q01": -0.06279107183218002,
+      "logit_q50": 0.006093751871958375,
+      "logit_q99": 0.10118687897920609
+    },
+    "validation_mean": {
+      "mean_hit": 0.4905123339658444,
+      "binary_accuracy": 0.4956356736242884,
+      "bce": 0.6945094586399093,
+      "brier": 0.250680132336137,
+      "auc": 0.5011767153126842,
+      "zero_return_fraction": 0.007020872865275142,
+      "zero_logit_fraction": 0.0,
+      "actual_positive": 0.5072106261859582,
+      "pred_positive": 0.3,
+      "logit_mean": -0.04396897843107581,
+      "logit_std": 0.07379325932348316,
+      "logit_q01": -0.14257699251174927,
+      "logit_q50": -0.07122252508997917,
+      "logit_q99": 0.1091236099600792
+    },
+    "calibrated": {
+      "mean_hit": 0.5204933586337761,
+      "binary_accuracy": 0.5229601518026565,
+      "bce": 0.6915133189003702,
+      "brier": 0.2491862953335461,
+      "auc": 0.5288328744453332,
+      "zero_return_fraction": 0.007020872865275142,
+      "zero_logit_fraction": 0.0,
+      "actual_positive": 0.5072106261859582,
+      "pred_positive": 0.6218216318785579,
+      "logit_mean": 0.02885023604091394,
+      "logit_std": 0.11123436241357192,
+      "logit_q01": -0.23943795598570428,
+      "logit_q50": 0.02881133172208999,
+      "logit_q99": 0.324781977920214
+    }
+  },
+  "report": {
+    "train_mean": {
+      "mean_hit": 0.4939942802669209,
+      "binary_accuracy": 0.4972354623450906,
+      "bce": 0.6937240873596883,
+      "brier": 0.25028815580279584,
+      "auc": 0.49812858238431734,
+      "zero_return_fraction": 0.007816968541468065,
+      "zero_logit_fraction": 0.0,
+      "actual_positive": 0.4800762631077216,
+      "pred_positive": 0.6,
+      "logit_mean": 0.009533674782142043,
+      "logit_std": 0.042405558202604325,
+      "logit_q01": -0.06279107183218002,
+      "logit_q50": 0.006093751871958375,
+      "logit_q99": 0.10118687897920609
+    },
+    "validation_mean": {
+      "mean_hit": 0.500095328884652,
+      "binary_accuracy": 0.5045757864632984,
+      "bce": 0.6937234289803635,
+      "brier": 0.250287411828672,
+      "auc": 0.49453851593790565,
+      "zero_return_fraction": 0.007816968541468065,
+      "zero_logit_fraction": 0.0,
+      "actual_positive": 0.4800762631077216,
+      "pred_positive": 0.3,
+      "logit_mean": -0.04396897843107581,
+      "logit_std": 0.07379325932348316,
+      "logit_q01": -0.14257699251174927,
+      "logit_q50": -0.07122252508997917,
+      "logit_q99": 0.1091236099600792
+    },
+    "calibrated": {
+      "mean_hit": 0.49599618684461394,
+      "binary_accuracy": 0.5,
+      "bce": 0.6946742560461989,
+      "brier": 0.25075753430229686,
+      "auc": 0.5090060766733279,
+      "zero_return_fraction": 0.007816968541468065,
+      "zero_logit_fraction": 0.0,
+      "actual_positive": 0.4800762631077216,
+      "pred_positive": 0.6132507149666349,
+      "logit_mean": 0.02655140813260357,
+      "logit_std": 0.11408313050087703,
+      "logit_q01": -0.2582994449316997,
+      "logit_q50": 0.030600839282975835,
+      "logit_q99": 0.28129386057388195
+    }
+  },
+  "permutation": {
+    "actual": {
+      "mean_hit": 0.503908484270734,
+      "binary_accuracy": 0.5088655862726406,
+      "bce": 0.6963606544394549,
+      "brier": 0.2515816303009326,
+      "auc": 0.500412523050028,
+      "zero_return_fraction": 0.007816968541468065,
+      "zero_logit_fraction": 0.0,
+      "actual_positive": 0.4800762631077216,
+      "pred_positive": 0.37159199237368923,
+      "logit_mean": -0.04833361444101661,
+      "logit_std": 0.1698333504930375,
+      "logit_q01": -0.45013011276721954,
+      "logit_q50": -0.05294086039066315,
+      "logit_q99": 0.37435017287731176
+    },
+    "mean_hit": 0.5009785510009533,
+    "fraction_shift_hit_ge_actual": 0.305,
+    "note": "Date-alignment diagnostic, not a stationarity-robust significance test"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "winner": {
+    "name": "dense_signed",
+    "encoder": "mlp",
+    "loss": "bce",
+    "graph": "dense"
+  },
+  "finalists": [
+    {
+      "name": "soft_threshold",
+      "encoder": "mlp",
+      "loss": "bce",
+      "graph": "soft"
+    },
+    {
+      "name": "dense_signed",
+      "encoder": "mlp",
+      "loss": "bce",
+      "graph": "dense"
+    },
+    {
+      "name": "original_legacy",
+      "encoder": "original",
+      "loss": "legacy",
+      "legacy_alignment": true
+    }
+  ],
+  "rule": "validation sign-hit (zeros retained); tie: raw-label BCE",
+  "note": "Retrospective development selection; dev intervals are not unbiased forward strategy performance. No report results used."
+}

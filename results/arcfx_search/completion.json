@@ -1,0 +1,13 @@
+{
+  "winner": {
+    "name": "dense_signed",
+    "encoder": "mlp",
+    "loss": "bce",
+    "graph": "dense"
+  },
+  "completed_training_runs": 54,
+  "training_attempts": 54,
+  "failed_attempts": 0,
+  "baseline_logistic_fits": 10,
+  "smoke_steps": 250
+}

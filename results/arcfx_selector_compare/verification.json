@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "optimizer_trajectories": 70,
+  "selected_test_runs": 60,
+  "initialization_fixed": true,
+  "native_equivalence": true,
+  "validation_tau_only": true,
+  "all_targets_and_seeds": true
+}

@@ -1,0 +1,25 @@
+{
+  "epochs": 20,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "selection": "validation sign-hit (zeros retained); tie: raw-label BCE",
+  "max_training_runs": 60,
+  "threads": 2,
+  "lookback": 10,
+  "bootstrap_repeats": 2000,
+  "development_fractions": [
+    [
+      0.5,
+      0.6
+    ],
+    [
+      0.6,
+      0.7
+    ]
+  ],
+  "final_train_fraction": 0.7,
+  "final_validation_end": 0.8,
+  "test_status": "previously inspected; not untouched"
+}

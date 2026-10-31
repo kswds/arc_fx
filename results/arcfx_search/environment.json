@@ -1,0 +1,10 @@
+{
+  "python": "3.13.2",
+  "torch": "2.6.0+cpu",
+  "numpy": "2.2.4",
+  "pandas": "2.2.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "threads": 2,
+  "device": "cpu",
+  "historical_results_preserved": true
+}

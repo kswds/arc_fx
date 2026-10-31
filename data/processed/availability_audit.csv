@@ -1,0 +1,53 @@
+series,kind,source,n_valid,first_valid,last_valid,lag_days_mean,lag_days_max,same_day_share,violations_avail_after_cutoff,violations_obs_date_after_t
+USD_Stock,market,yahoo/USD_Stock.csv,5252,2005-01-03,2025-12-17,1.44,5,0.0,0,0
+EUR_Stock,market,yahoo/EUR_Stock.csv,5252,2005-01-03,2025-12-17,1.42,6,0.002,0,0
+JPY_Stock,market,yahoo/JPY_Stock.csv,5252,2005-01-03,2025-12-17,0.14,10,0.944,0,0
+GBP_Stock,market,yahoo/GBP_Stock.csv,5252,2005-01-03,2025-12-17,1.45,5,0.002,0,0
+CAD_Stock,market,yahoo/CAD_Stock.csv,5252,2005-01-03,2025-12-17,1.46,5,0.0,0,0
+AUD_Stock,market,yahoo/AUD_Stock.csv,5252,2005-01-03,2025-12-17,0.06,5,0.974,0,0
+KRW_Stock,market,yahoo/KRW_Stock.csv,5252,2005-01-03,2025-12-17,0.11,7,0.95,0,0
+CHF_Stock,market,yahoo/CHF_Stock.csv,5252,2005-01-03,2025-12-17,1.45,6,0.002,0,0
+NZD_Stock,market,yahoo/NZD_Stock.csv,5252,2005-01-03,2025-12-17,0.14,7,0.952,0,0
+SEK_Stock,market,yahoo/SEK_Stock.csv,4271,2008-11-21,2025-12-17,1.43,6,0.0,0,0
+NOK_Stock,market,yahoo/NOK_Stock.csv,3198,2013-03-05,2025-12-17,0.18,6,0.895,0,0
+Global_VIX,market,FRED VIXCLS,5252,2005-01-03,2025-12-17,1.43,5,0.0,0,0
+Global_US1Y,market,FRED DGS1,5252,2005-01-03,2025-12-17,1.46,4,0.0,0,0
+Global_US2Y,market,FRED DGS2,5252,2005-01-03,2025-12-17,1.46,4,0.0,0,0
+Global_US5Y,market,FRED DGS5,5252,2005-01-03,2025-12-17,1.46,4,0.0,0,0
+Global_US10Y,market,FRED DGS10,5252,2005-01-03,2025-12-17,1.46,4,0.0,0,0
+Global_DXY,market,Yahoo DX-Y.NYB,5252,2005-01-03,2025-12-17,1.44,5,0.0,0,0
+Global_Oil,market,Yahoo front-month futures Oil,5252,2005-01-03,2025-12-17,1.44,5,0.0,0,0
+Global_Gold,market,Yahoo front-month futures Gold,5252,2005-01-03,2025-12-17,1.45,5,0.0,0,0
+Global_Copper,market,Yahoo front-month futures Copper,5252,2005-01-03,2025-12-17,1.44,5,0.0,0,0
+EUR_Yield10Y,market,national 10Y EUR,5252,2005-01-03,2025-12-17,1.41,6,0.0,0,0
+JPY_Yield10Y,market,national 10Y JPY,5252,2005-01-03,2025-12-17,1.52,11,0.0,0,0
+GBP_Yield10Y,market,national 10Y GBP,5252,2005-01-03,2025-12-17,1.45,5,0.0,0,0
+CAD_Yield10Y,market,national 10Y CAD,5252,2005-01-03,2025-12-17,1.47,5,0.0,0,0
+AUD_Yield10Y,market,national 10Y AUD,5252,2005-01-03,2025-12-17,1.46,6,0.0,0,0
+KRW_Yield10Y,market,national 10Y KRW,5252,2005-01-03,2025-12-17,1.47,11,0.0,0,0
+CHF_Yield10Y,market,national 10Y CHF,5165,2005-01-03,2025-08-12,1.45,12,0.0,0,0
+NZD_Yield10Y,market,national 10Y NZD,4225,2009-01-30,2025-12-17,1.46,5,0.0,0,0
+SEK_Yield10Y,market,national 10Y SEK,5252,2005-01-03,2025-12-17,1.43,6,0.0,0,0
+NOK_Yield10Y,market,national 10Y NOK,5252,2005-01-03,2025-12-17,1.45,7,0.0,0,0
+USD_CPIInfl,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,75.4,92,0.0,0,0
+USD_GDP_growth,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,107.8,184,0.0,0,0
+EUR_CPIInfl,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,76.4,92,0.0,0,0
+EUR_GDP_growth,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,127.4,366,0.0,0,0
+JPY_CPIInfl,macro_vintage,"e-Stat CPI 2020-base (unrevised index), usable from 1st of M+2",5252,2005-01-03,2025-12-17,46.2,62,0.0,0,0
+JPY_GDP_growth,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,137.2,184,0.0,0,0
+GBP_CPIInfl,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,76.3,92,0.0,0,0
+GBP_GDP_growth,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,121.3,184,0.0,0,0
+CAD_CPIInfl,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,76.8,153,0.0,0,0
+CAD_GDP_growth,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,131.1,212,0.0,0,0
+AUD_CPIInfl,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,106.5,153,0.0,0,0
+AUD_GDP_growth,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,144.1,241,0.0,0,0
+KRW_CPIInfl,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,51.6,92,0.0,0,0
+KRW_GDP_growth,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,108.3,211,0.0,0,0
+CHF_CPIInfl,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,57.1,92,0.0,0,0
+CHF_GDP_growth,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,143.4,214,0.0,0,0
+NZD_CPIInfl,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,106.1,182,0.0,0,0
+NZD_GDP_growth,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,168.9,243,0.0,0,0
+SEK_CPIInfl,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,73.9,92,0.0,0,0
+SEK_GDP_growth,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,127.2,215,0.0,0,0
+NOK_CPIInfl,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,71.3,92,0.0,0,0
+NOK_GDP_growth,macro_vintage,OECD STES revisions: edition vintage,5252,2005-01-03,2025-12-17,138.9,215,0.0,0,0

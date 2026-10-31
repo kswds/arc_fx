@@ -1,0 +1,190 @@
+{
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "epochs": 20,
+    "patience": 4,
+    "batch_size": 256,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "hidden": 32,
+    "dropout": 0.25,
+    "lookback": 10,
+    "threads": 2,
+    "bootstrap_repeats": 2000,
+    "blocks": [
+      5,
+      20,
+      60
+    ],
+    "fx_lag_calendar_days": 14,
+    "nonfx_extra_panel_lag": 1,
+    "selection": "validation sign-hit; tie lower raw-label BCE",
+    "primary_effects": [
+      "A4-A3",
+      "A3-A1",
+      "A4-A2"
+    ],
+    "policies": [
+      "conservative_lag14",
+      "market_feed_assumed"
+    ],
+    "matched_baselines": [
+      "mlp",
+      "transformer"
+    ],
+    "subset_min_dates": 126,
+    "subset_sizes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "subset_seed_selection": false,
+    "subset_objectives": [
+      "hit",
+      "minimum_advantage",
+      "graph_advantage"
+    ]
+  },
+  "evaluation": {
+    "decision_timestamp": "panel date t, 12:00 America/New_York; non-FX builder cutoff 11:30 ET",
+    "return_start": "t 12:00 America/New_York",
+    "return_end": "Target_Date 12:00 America/New_York",
+    "currencies": [
+      "USD",
+      "EUR",
+      "JPY",
+      "GBP",
+      "CAD",
+      "AUD",
+      "KRW",
+      "CHF",
+      "NZD",
+      "SEK",
+      "NOK"
+    ],
+    "quotation": "positive = local currency appreciation against USD; USD-per-foreign EUR/GBP/AUD/NZD, inverse other FX quotes",
+    "direction_label": "raw return > 0",
+    "zero_target": "negative binary class; legacy three-way sign-hit requires exactly zero logit to hit zero return",
+    "zero_logit": "binary down (z>0 false), legacy sign 0",
+    "mean_hit": "equal-weight dates and target currencies, np.sign(z)==np.sign(r)",
+    "horizon": "next panel noon fixing",
+    "lookback": 10,
+    "common_training_target_rows": [
+      10,
+      3674
+    ],
+    "train": [
+      "2005-01-18 00:00:00",
+      "2019-08-23 00:00:00"
+    ],
+    "validation": [
+      "2019-08-27 00:00:00",
+      "2021-10-05 00:00:00"
+    ],
+    "report_return_end": [
+      "2021-10-07",
+      "2025-12-18"
+    ],
+    "target_counts": {
+      "train": 3665,
+      "validation": 527,
+      "report": 1049
+    },
+    "scaler": "train-only feature mean/std, missing -> standardized zero; lag applied before scaler in conservative policy",
+    "feature_lists": {
+      "local": [
+        "{ccy}_FX_ret_1d",
+        "{ccy}_FX_mom_5",
+        "{ccy}_FX_mom_20",
+        "{ccy}_FX_vol_5",
+        "{ccy}_FX_vol_20",
+        "{ccy}_FX_zscore_20"
+      ],
+      "rate": [
+        "{ccy}_Yield10Y",
+        "{ccy}_Yield10Y_change",
+        "{ccy}_Yield10Y_minus_US10Y",
+        "{ccy}_RealRate10Y",
+        "{ccy}_Yield10Y_Available",
+        "Global_US1Y",
+        "Global_US2Y",
+        "Global_US5Y",
+        "Global_US10Y",
+        "Global_US10Y_minus_US2Y",
+        "Global_US2Y_change",
+        "Global_US10Y_change"
+      ],
+      "equity": [
+        "{ccy}_Stock_ret",
+        "{ccy}_Stock_mom_5",
+        "{ccy}_Stock_mom_20",
+        "{ccy}_Stock_vol_20",
+        "{ccy}_Stock_ret_minus_SP500_ret",
+        "{ccy}_Stock_Available"
+      ],
+      "countrymacro": [
+        "{ccy}_GDP_growth",
+        "{ccy}_CPIInfl",
+        "{ccy}_GDP_growth_minus_USD",
+        "{ccy}_CPIInfl_minus_USD"
+      ],
+      "global_features": [
+        "Global_VIX",
+        "Global_VIX_change",
+        "Global_DXY_ret",
+        "Global_SP500_ret",
+        "Global_Oil_ret",
+        "Global_Gold_ret",
+        "Global_Copper_ret",
+        "Global_US2Y_change",
+        "Global_US10Y_change",
+        "Global_US10Y_minus_US2Y"
+      ]
+    },
+    "regimes": "six causal regime indicators, thresholds from training only",
+    "conservative_policy": "FX-derived features observed at least 14 calendar days earlier; all non-FX supplied PIT features an additional panel-date lag; regimes recomputed after these lags",
+    "conservative_limitation": "14-day schedule buffer, not per-release vintage certification; 2006-2009 H10 weekly publication interruption and subsequent revisions remain unverified",
+    "conditional_policy": "same inputs/scalers as prior exploration; current noon spot requires an unverified contemporaneous market feed",
+    "no_graph": "zero cross-currency message at training and inference; no per-node pooling or foreign-node gate; predefined common market/regime inputs and USD gauge retained",
+    "public_source": "https://www.federalreserve.gov/releases/h10/default.htm",
+    "source_fact": "H10 previous-week daily rates published Mondays 16:15 ET, next business day if federal holiday; weekly release interrupted May 2006-Jan 2009",
+    "subset_authorization": "User explicitly permits exploratory choice of evaluation period and currency subset; all models share each selected denominator; all seeds retained.",
+    "selection_caveat": "Subset ranking uses report labels; descriptive selected-sample advantage, not independent generalization or selection-corrected significance."
+  },
+  "hashes": {
+    "data\\processed\\fx_panel_pit.csv": "22740b4dd23849c66d9891232ce8a5996eb3da002cfb61ea1d95c147016506ad",
+    "data\\processed\\nonfx_features_pit.csv": "7c068cddfb60462fcb0ab27df9c0c3ed603ba87d19ad90d0acc6c7b7ed60c373",
+    "src\\arcfx_search_models.py": "05c66be25c8bae4cf02eeb19c32eca724bb60689d334f4353751392534e80217",
+    "src\\data_pipeline.py": "dc5f023b53b9127ac32605dc3d071e67cd09e0eb3996ffdf99258d5fe838a3d3",
+    "src\\arcfx_followup.py": "980949298c36875f41cea426a5eff97e75c6e87340f6efa3c7adceff7d07c6f3"
+  },
+  "prior_reuse_hash_checks": {
+    "data\\processed\\fx_panel_pit.csv": true,
+    "data\\processed\\nonfx_features_pit.csv": true,
+    "src\\arcfx_search_models.py": true
+  },
+  "availability_violations": {
+    "violations_avail_after_cutoff": 0,
+    "violations_obs_date_after_t": 0
+  },
+  "python": "3.13.2",
+  "torch": "2.6.0+cpu",
+  "numpy": "2.2.4",
+  "training_logic_sha256": "35645f44830d891460bd6520ef7ad6140cc66378dd3ed56d639384cd1f7aa294",
+  "analysis_source_sha256": "50e7f48ec4833420c1085bc1aa02b009b8c6ccd2a7c2e691afbd4d23004490e0",
+  "protocol_sha256": "1d353d623e7b9609f25523db53d797d0f93ca0a29bdc41f915588b264c10e39e",
+  "verification_script_sha256": "5a47de5a202efcccdcab03a82a81c5b985e9c1652afa69594d94e88d35789c0c"
+}

@@ -1,0 +1,16 @@
+{
+  "total_combinations": 159544,
+  "unique_combinations": 158064,
+  "period_family": "contiguous calendar-half blocks and full report, at least 126 market dates",
+  "currency_subsets": 1023,
+  "individual_cross_rates": 55,
+  "seeds": "all 0,1,2,3,4 averaged; no seed selection",
+  "comparators": [
+    "matched A3 no graph",
+    "matched MLP",
+    "matched Transformer",
+    "train-only direction frequency"
+  ],
+  "calibrated_candidate": "same positive common slope plus ten node offsets fitted on validation only for A4 and every neural comparator",
+  "warnings": "Report-selected scope ranks are descriptive; nominal confidence intervals do not adjust selection. Graph remains 11-node; only evaluation targets change; all models trained on all ten USD targets."
+}

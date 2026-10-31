@@ -1,0 +1,8 @@
+{
+  "new_neural_fits": 40,
+  "failed_runs": 0,
+  "former_validation_dates": 527,
+  "primary_targets": 10,
+  "secondary_pairs": 55,
+  "fit_eval_overlap_fraction": 1.0
+}

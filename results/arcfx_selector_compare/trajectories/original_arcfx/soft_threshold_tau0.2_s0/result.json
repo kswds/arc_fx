@@ -1,0 +1,57 @@
+{
+  "backbone": "original_arcfx",
+  "selector": "soft_threshold",
+  "tau": 0.2,
+  "seed": 0,
+  "parameters": 160896,
+  "initial_state_hash": "72d78e25124e9a970ae9ab3deb3fa8afa7440856096103116d6fb00bf94d1565",
+  "initial_training_diagnostics": null,
+  "trained_epochs": 10,
+  "seconds": 25.392971999943256,
+  "protocols": {
+    "pit_original": {
+      "validation": {
+        "mean_hit": 0.491793893129771,
+        "binary_accuracy": 0.49456106870229005,
+        "validation_objective": 0.6987596049563576,
+        "zero_return_fraction": 0.008110687022900763,
+        "pred_positive": 0.6291030534351145,
+        "actual_positive": 0.4963740458015267,
+        "active_edge_fraction": 0.37011623872310895,
+        "mean_neighbors": 3.7011623872310895,
+        "zero_neighbor_fraction": 0.145558639833449,
+        "row_l1_max": 1.0000001192092896,
+        "message_rms": 0.2922235429286957,
+        "gate_mean": 0.3541322946548462,
+        "gate_q01": 0.29671141505241394,
+        "gate_q99": 0.4650369882583618,
+        "prediction_std": 0.0012404870940372348,
+        "model_output_std": 0.16175130009651184
+      },
+      "best_epoch": 1,
+      "stop_epoch": 5
+    },
+    "overlap50": {
+      "validation": {
+        "mean_hit": 0.49646946564885497,
+        "binary_accuracy": 0.49923664122137407,
+        "validation_objective": 0.6946604624959348,
+        "zero_return_fraction": 0.006297709923664122,
+        "pred_positive": 0.47919847328244275,
+        "actual_positive": 0.4906488549618321,
+        "active_edge_fraction": 0.3520818875780708,
+        "mean_neighbors": 3.5208188757807077,
+        "zero_neighbor_fraction": 0.2241498959056211,
+        "row_l1_max": 1.000000238418579,
+        "message_rms": 0.30362752079963684,
+        "gate_mean": 0.29823940992355347,
+        "gate_q01": 0.20025989413261414,
+        "gate_q99": 0.44536924362182617,
+        "prediction_std": 0.0006640877691097558,
+        "model_output_std": 0.08792782574892044
+      },
+      "best_epoch": 6,
+      "stop_epoch": 10
+    }
+  }
+}

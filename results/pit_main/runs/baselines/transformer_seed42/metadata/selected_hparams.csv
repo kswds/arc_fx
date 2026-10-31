@@ -1,0 +1,2 @@
+model,seed,patch_len,selected,n_trainable_params,best_val_loss,best_selection_score,train_seconds
+transformer,42,,1,64082,0.6937472489145067,0.6888264473877891,40.03865200094879

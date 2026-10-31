@@ -1,0 +1,8 @@
+{
+  "data\\processed\\fx_panel_pit.csv": "22740b4dd23849c66d9891232ce8a5996eb3da002cfb61ea1d95c147016506ad",
+  "data\\processed\\nonfx_features_pit.csv": "7c068cddfb60462fcb0ab27df9c0c3ed603ba87d19ad90d0acc6c7b7ed60c373",
+  "src\\analyze_arcfx_search.py": "a3457a36c86806162f5719bf5fc1d04099703c72d860397a7b6b04a31caf1956",
+  "src\\arcfx_search_models.py": "05c66be25c8bae4cf02eeb19c32eca724bb60689d334f4353751392534e80217",
+  "src\\check_arcfx_search.py": "488d48b8f4bf2aed668b096ba5b73603c5002ecabcb3bbcc9bce42ce7496ac2a",
+  "src\\run_arcfx_search.py": "586cc21cb7c5c662ee61a18299a310e734c31fd7311223bc9c0b9a714e6abba3"
+}

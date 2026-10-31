@@ -1,0 +1,2 @@
+model,seed,patch_len,selected,n_trainable_params,best_val_loss,best_selection_score,train_seconds
+corrlstmgat,21,,1,41713,0.6934584511650933,0.6884994816994444,17.574384899809957

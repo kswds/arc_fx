@@ -1,0 +1,8 @@
+series,break_date,note
+NOK_Yield10Y,2019-01-02,Norges Bank synthetic yields (to 2018-12-31) -> generic benchmark yields; overlap 2019-01..2021-06 diff mean 0.001pp std 0.020pp
+NZD_Yield10Y,2025-08-25,RBNZ B2 changed from mid rates to end-of-day closing rates (per source notes; not independently verified)
+NOK_Stock,2013-03-05,"Yahoo OSEBX.OL (Oslo Børs Benchmark Index_GI, gross-return) starts; earlier history not collected"
+SEK_Stock,2008-11-20,Yahoo ^OMX starts; earlier history not collected
+CHF_Yield10Y,2025-07-31,SNB legacy series ends; later history not collected -> missing
+Global_Oil,2020-04-20,WTI front-month settle was negative (-37.63); returns involving it are NaN
+Global_Oil/Gold/Copper,,continuous front-month futures: returns across roll dates include roll jumps

@@ -1,0 +1,12 @@
+{
+  "trial": "t021",
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "dropout": 0.4,
+  "edge_dropout": 0.2,
+  "small_return_quantile": 0.6,
+  "lambda_component": 0.0,
+  "graph_reg_scale": 0.1,
+  "hit_alpha": 0.05,
+  "batch_size": 64
+}

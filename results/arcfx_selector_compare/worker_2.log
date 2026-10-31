@@ -1,0 +1,10 @@
+original_arcfx soft_threshold_tau0.2 seed 0 epochs 10 val {'pit_original': 0.49179, 'overlap50': 0.49647} sec 25
+original_arcfx soft_threshold_tau0 seed 1 epochs 7 val {'pit_original': 0.50515, 'overlap50': 0.50926} sec 49
+original_arcfx soft_threshold_tau0.1 seed 1 epochs 9 val {'pit_original': 0.5042, 'overlap50': 0.51021} sec 61
+original_arcfx dense_signed seed 2 epochs 9 val {'pit_original': 0.50143, 'overlap50': 0.50191} sec 60
+original_arcfx soft_threshold_tau0.05 seed 2 epochs 8 val {'pit_original': 0.50076, 'overlap50': 0.50048} sec 54
+original_arcfx topk seed 3 epochs 7 val {'pit_original': 0.51384, 'overlap50': 0.51126} sec 49
+original_arcfx soft_threshold_tau0.025 seed 3 epochs 7 val {'pit_original': 0.51622, 'overlap50': 0.51231} sec 48
+original_arcfx soft_threshold_tau0.2 seed 3 epochs 7 val {'pit_original': 0.51469, 'overlap50': 0.51174} sec 49
+original_arcfx soft_threshold_tau0 seed 4 epochs 5 val {'pit_original': 0.50344, 'overlap50': 0.51107} sec 35
+original_arcfx soft_threshold_tau0.1 seed 4 epochs 9 val {'pit_original': 0.50382, 'overlap50': 0.51059} sec 53

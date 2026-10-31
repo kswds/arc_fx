@@ -1,0 +1,4 @@
+seed,n,sign_disagreement,predictions_exactly_equal,checkpoint_hash_equal
+21,10490,0.011916110581506196,False,False
+42,10490,0.018493803622497616,False,False
+456,10490,0.008674928503336512,False,False

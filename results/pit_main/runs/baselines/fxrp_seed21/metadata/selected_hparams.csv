@@ -1,0 +1,2 @@
+model,seed,patch_len,selected,n_trainable_params,best_val_loss,best_selection_score,train_seconds
+fxrp,21,,1,54097,0.6931974689165751,0.6882365910539796,16.656154999509454

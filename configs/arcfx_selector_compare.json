@@ -1,0 +1,48 @@
+{
+  "backbones": [
+    "compact_mlp",
+    "original_arcfx"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "top_k": 3,
+  "tau_grid": [
+    0.0,
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "epochs": 20,
+  "patience": 4,
+  "batch_size": 256,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "clip_grad_norm": 1.0,
+  "threads": 2,
+  "lookback": 10,
+  "input_lag": 0,
+  "input_policy": "supplied PIT features, current decision row; same for all candidates, no new lag14",
+  "scaler_split": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "tau_selection": "maximum five-seed mean validation sign-hit; tie lower mean validation objective, then smaller tau",
+  "checkpoint": "validation sign-hit maximum; tie lower validation objective",
+  "optimizer": "AdamW constant learning rate; no validation-driven LR scheduler",
+  "overlap": "same train and test, same validation size; shift validation forward by floor(test length / 2)",
+  "primary_targets": "all 10 non-USD currencies against USD; no period/target filtering",
+  "maximum_reporting": "highest test seed within validation-selected model settings; marked post hoc",
+  "bootstrap_repeats": 2000,
+  "blocks": [
+    5,
+    20,
+    60
+  ]
+}

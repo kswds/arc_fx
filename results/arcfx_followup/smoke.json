@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "shared initialization",
+    "exact message-zero equivalence",
+    "no foreign-node bypass",
+    "input alignment",
+    "finite BCE gradient"
+  ],
+  "neural_fits": 0
+}
