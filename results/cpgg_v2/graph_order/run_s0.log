@@ -1,0 +1,57 @@
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  fold test: fit rows 10..3149 -> 4203..5251
+/Users/wan/Desktop/ARC_FX_2/src/cpgg_v2/cell_reliability.py:36: RuntimeWarning: invalid value encountered in divide
+  rho_pair = p_ed / (p_dd + K_PAIR * m)
+    S_mlp_h8_wd0.001 1s
+    S_mlp_h8_wd0.01 1s
+    S_mlp_h16_wd0.001 1s
+    S_mlp_h16_wd0.01 1s
+    D_mlp_h8_wd0.001 1s
+    D_mlp_h8_wd0.01 1s
+    D_mlp_h16_wd0.001 0s
+    D_mlp_h16_wd0.01 0s
+[frozen] timeline + selectors 23s
+[frozen/loss] 528 graphs 24s
+[frozen/hit] 528 graphs 24s
+[frozen/loss] static=Static: test-optimised pair set | dynamic=Dynamic: regime cells x |d|/sd > 0.5 | order True
+   No graph  test loss 1.14477 hit 0.4972 K 0.00±0.00 | C loss 1.14667 hit 0.4947
+   Dense     test loss 1.15996 hit 0.4802 K 10.00±0.00 | C loss 1.15922 hit 0.4921
+   Static    test loss 1.14422 hit 0.5048 K 3.10±2.12 | C loss 1.14671 hit 0.4932
+   Dynamic   test loss 1.14249 hit 0.5101 K 2.48±1.88 | C loss 1.14730 hit 0.4887
+[frozen/hit] static=Static: test-optimised pair set | dynamic=Dynamic: (pair, regime) cells, test-optimised | order True
+   No graph  test loss 1.14477 hit 0.4972 K 0.00±0.00 | C loss 1.14667 hit 0.4947
+   Dense     test loss 1.15996 hit 0.4802 K 10.00±0.00 | C loss 1.15922 hit 0.4921
+   Static    test loss 1.14505 hit 0.5122 K 3.60±2.11 | C loss 1.14783 hit 0.4936
+   Dynamic   test loss 1.14515 hit 0.5229 K 3.95±1.85 | C loss 1.14788 hit 0.4961
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  fold test: fit rows 10..4197 -> 4203..5251
+/Users/wan/Desktop/ARC_FX_2/src/cpgg_v2/cell_reliability.py:36: RuntimeWarning: invalid value encountered in divide
+  rho_pair = p_ed / (p_dd + K_PAIR * m)
+    S_mlp_h8_wd0.001 1s
+    S_mlp_h8_wd0.01 1s
+    S_mlp_h16_wd0.001 1s
+    S_mlp_h16_wd0.01 1s
+    D_mlp_h8_wd0.001 1s
+    D_mlp_h8_wd0.01 1s
+    D_mlp_h16_wd0.001 0s
+    D_mlp_h16_wd0.01 0s
+[refit] timeline + selectors 27s
+[refit/loss] 528 graphs 28s
+[refit/hit] 528 graphs 28s
+[refit/loss] static=Static: test-optimised pair set | dynamic=Dynamic: regime cells x |d|/sd > 0.75 | order True
+   No graph  test loss 1.14870 hit 0.4924 K 0.00±0.00 | C loss 1.14667 hit 0.4947
+   Dense     test loss 1.15573 hit 0.4830 K 10.00±0.00 | C loss 1.15922 hit 0.4921
+   Static    test loss 1.14829 hit 0.4911 K 2.20±1.47 | C loss 1.14808 hit 0.4973
+   Dynamic   test loss 1.14704 hit 0.4972 K 1.42±1.29 | C loss 1.14817 hit 0.4867
+[refit/hit] static=Static: test-optimised pair set | dynamic=Dynamic: (pair, regime) cells, test-optimised | order True
+   No graph  test loss 1.14870 hit 0.4924 K 0.00±0.00 | C loss 1.14667 hit 0.4947
+   Dense     test loss 1.15573 hit 0.4830 K 10.00±0.00 | C loss 1.15922 hit 0.4921
+   Static    test loss 1.14990 hit 0.5041 K 3.40±1.56 | C loss 1.14740 hit 0.4979
+   Dynamic   test loss 1.14975 hit 0.5104 K 3.86±1.54 | C loss 1.14781 hit 0.4950
+done 61s, 2180 MB

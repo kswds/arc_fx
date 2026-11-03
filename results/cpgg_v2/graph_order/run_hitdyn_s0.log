@@ -1,0 +1,45 @@
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  fold test: fit rows 10..3149 -> 4203..5251
+/Users/wan/Desktop/ARC_FX_2/src/cpgg_v2/cell_reliability.py:36: RuntimeWarning: invalid value encountered in divide
+  rho_pair = p_ed / (p_dd + K_PAIR * m)
+    S_mlp_h8_wd0.001 1s
+    S_mlp_h8_wd0.01 1s
+    S_mlp_h16_wd0.001 1s
+    S_mlp_h16_wd0.01 1s
+    D_mlp_h8_wd0.001 1s
+    D_mlp_h8_wd0.01 1s
+    D_mlp_h16_wd0.001 0s
+    D_mlp_h16_wd0.01 0s
+[frozen] 94 admissible dynamic graphs 103s
+[frozen] dynamic = cells(static set) & D_ridge_a10000 g>q0.3
+   No graph  test hit 0.4972 loss 1.14477 K 0.0±0.0 [0,0] | C hit 0.4947
+   Dense     test hit 0.4802 loss 1.15996 K 100.0±0.0 [100,100] | C hit 0.4921
+   Static    test hit 0.5122 loss 1.14505 K 36.0±0.0 [36,36] | C hit 0.4936
+   Dynamic   test hit 0.5316 loss 1.14379 K 33.2±5.0 [15,44] | C hit 0.5011
+   K by regime: {0: {'n': 616, 'K_mean': 35.33279220779221, 'K_min': 25, 'K_max': 43, 'n_distinct': 18}, 1: {'n': 290, 'K_mean': 32.09655172413793, 'K_min': 18, 'K_max': 44, 'n_distinct': 25}, 2: {'n': 143, 'K_mean': 26.18881118881119, 'K_min': 15, 'K_max': 39, 'n_distinct': 22}}
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  fold test: fit rows 10..4197 -> 4203..5251
+/Users/wan/Desktop/ARC_FX_2/src/cpgg_v2/cell_reliability.py:36: RuntimeWarning: invalid value encountered in divide
+  rho_pair = p_ed / (p_dd + K_PAIR * m)
+    S_mlp_h8_wd0.001 1s
+    S_mlp_h8_wd0.01 1s
+    S_mlp_h16_wd0.001 1s
+    S_mlp_h16_wd0.01 2s
+    D_mlp_h8_wd0.001 2s
+    D_mlp_h8_wd0.01 2s
+    D_mlp_h16_wd0.001 1s
+    D_mlp_h16_wd0.01 1s
+[refit] 101 admissible dynamic graphs 210s
+[refit] dynamic = cells(static set) & sign(d)!=sign(b)
+   No graph  test hit 0.4924 loss 1.14870 K 0.0±0.0 [0,0] | C hit 0.4947
+   Dense     test hit 0.4830 loss 1.15573 K 100.0±0.0 [100,100] | C hit 0.4921
+   Static    test hit 0.5041 loss 1.14990 K 34.0±0.0 [34,34] | C hit 0.4979
+   Dynamic   test hit 0.5140 loss 1.14751 K 18.9±5.2 [2,36] | C hit 0.4948
+   K by regime: {0: {'n': 616, 'K_mean': 18.790584415584416, 'K_min': 3, 'K_max': 33, 'n_distinct': 30}, 1: {'n': 290, 'K_mean': 18.344827586206897, 'K_min': 2, 'K_max': 34, 'n_distinct': 25}, 2: {'n': 143, 'K_mean': 20.412587412587413, 'K_min': 7, 'K_max': 36, 'n_distinct': 27}}
+done 211s, 1392 MB

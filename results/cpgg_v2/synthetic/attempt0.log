@@ -1,0 +1,58 @@
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  timeline built 12s
+  selectors 14s
+{"lag_reach_max_abs_err": 5.04209596297045e-08, "decomposition_max_abs_err": 0.0, "self_message_max": 0.0, "usd_fx_inputs_max": 0.0, "cell_feature_leak_max_change": 0.0, "cell_se_leak_max_change": 0.0, "corr_message_signal_C": 0.9963542276733199, "placebo_rate_records": 0.05, "cpu_mps": "not applicable: M-v2 and ridge selectors run in float64 numpy on CPU", "passed": true}
+done
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  timeline built 12s
+  selectors 14s
+{"snr": 1.0, "coef": 1.1119561133308942, "forced_gain": {"mean": 0.4912998928254797, "lo": 0.434248021998592, "hi": 0.5498725123355122}, "oracle_gain": {"mean": 0.4972066072221021, "lo": 0.440090011410728, "hi": 0.5552554621581585}, "ratio": 0.9881202013190789, "corr_d_signal": 0.9963224512641642, "selection": {"S": {"config": "S_ridge_a10000", "c0": -0.0003246201392940853, "src": 0.7757633587786259, "noise": 0.0, "dup": 0.0, "K_JPY": 1.0171755725190839, "placebo_rate_C": 0.04069656488549618, "placebo_rate_rec": 0.05}, "D": {"config": "D_ridge_a1000", "c0": -0.00040292403166245855, "src": 0.7948473282442748, "noise": 0.0, "dup": 0.0, "K_JPY": 1.123091603053435, "placebo_rate_C": 0.049341603053435115, "placebo_rate_rec": 0.05}}, "passed": true}
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  timeline built 11s
+  selectors 13s
+{"snr": 0.3, "coef": 0.6090434462271016, "forced_gain": {"mean": 0.18242969560145422, "lo": 0.1473637096853998, "hi": 0.217260398273534}, "oracle_gain": {"mean": 0.18712451627463786, "lo": 0.1519124113620465, "hi": 0.22219815105981838}, "ratio": 0.9749107131088416, "corr_d_signal": 0.9915341838359755, "selection": {"S": {"config": "S_ridge_a1000", "c0": -0.000359928089411818, "src": 0.691793893129771, "noise": 0.0, "dup": 0.0, "K_JPY": 1.1154580152671756, "placebo_rate_C": 0.061526717557251906, "placebo_rate_rec": 0.05}, "D": {"config": "D_ridge_a1000", "c0": -0.00044372892051959214, "src": 0.7290076335877863, "noise": 0.0, "dup": 0.0, "K_JPY": 1.1822519083969465, "placebo_rate_C": 0.06379770992366413, "placebo_rate_rec": 0.05}}, "passed": true}
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  timeline built 11s
+  selectors 13s
+{"snr": 0.1, "coef": 0.3516313976273945, "forced_gain": {"mean": 0.05790790608366027, "lo": 0.03578881063135981, "hi": 0.07951251612620726}, "oracle_gain": {"mean": 0.061904114052539566, "lo": 0.04035764474507052, "hi": 0.08315706862819218}, "ratio": 0.9354451956862251, "corr_d_signal": 0.975780445152115, "selection": {"S": {"config": "S_ridge_a1000", "c0": -0.0002957941141463971, "src": 0.5458015267175572, "noise": 0.0, "dup": 0.0, "K_JPY": 1.2185114503816794, "placebo_rate_C": 0.07705152671755726, "placebo_rate_rec": 0.05}, "D": {"config": "D_ridge_a10", "c0": -0.0002657412401751311, "src": 0.6278625954198473, "noise": 0.0, "dup": 0.003816793893129771, "K_JPY": 1.2471374045801527, "placebo_rate_C": 0.07912213740458016, "placebo_rate_rec": 0.05}}, "passed": {"S": true, "D": true}}
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  timeline built 11s
+  selectors 13s
+{"snr": 0.03, "coef": 0.19259644840759252, "forced_gain": {"mean": 0.01141558917424151, "lo": 0.0007895178424606797, "hi": 0.021919922075653794}, "oracle_gain": {"mean": 0.01450390345950163, "lo": 0.002185790856432824, "hi": 0.02671500314098164}, "ratio": 0.7870701295080023, "corr_d_signal": 0.9387128978470598, "selection": {"S": {"config": "S_ridge_a10000", "c0": -0.000413177617866087, "src": 0.4150763358778626, "noise": 0.0, "dup": 0.0, "K_JPY": 1.2099236641221374, "placebo_rate_C": 0.0845324427480916, "placebo_rate_rec": 0.05}, "D": {"config": "D_ridge_a1000", "c0": -0.0004137713367379515, "src": 0.375, "noise": 0.0, "dup": 0.07538167938931298, "K_JPY": 1.0982824427480915, "placebo_rate_C": 0.0933587786259542, "placebo_rate_rec": 0.05}}}
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  timeline built 11s
+  selectors 12s
+{"vix": {"message": {"regime": {"mean_abs_d": 0.5218127902155417, "realized_rho": 0.9288770769063824}, "non_regime": {"mean_abs_d": 0.08132670333674603, "realized_rho": -0.9626319380820417}}, "selection": {"S": {"config": "S_ridge_a10000", "c0": -0.000303507012241329, "src": 0.4074427480916031, "noise": 0.0, "dup": 0.0, "K_JPY": 0.7690839694656488, "placebo_rate_C": 0.054103053435114505, "placebo_rate_rec": 0.05, "src_regime": 0.6989247311827957, "src_non_regime": 0.17495711835334476, "diff": 0.523967612829451, "lo": 0.4746093190291666, "hi": 0.5727734758822192}, "D": {"config": "D_ridge_a10000", "c0": -0.00031413037968258884, "src": 0.4627862595419847, "noise": 0.0, "dup": 0.0, "K_JPY": 0.8711832061068703, "placebo_rate_C": 0.0479293893129771, "placebo_rate_rec": 0.05, "src_regime": 0.7376344086021506, "src_non_regime": 0.24356775300171526, "diff": 0.4940666556004353, "lo": 0.43970092677728045, "hi": 0.5470303873547607}}, "passed": {"S": true, "D": true}}}
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  timeline built 11s
+  selectors 13s
+{"main": {"message": {"regime": {"mean_abs_d": 0.37783774804568304, "realized_rho": 1.0661426802203338}, "non_regime": {"mean_abs_d": 0.16802944018885338, "realized_rho": -0.3198378674829754}}, "selection": {"S": {"config": "S_ridge_a10000", "c0": -0.00033127539833424554, "src": 0.5467557251908397, "noise": 0.0, "dup": 0.0, "K_JPY": 1.2748091603053435, "placebo_rate_C": 0.08236641221374046, "placebo_rate_rec": 0.05, "src_regime": 0.6623655913978495, "src_non_regime": 0.45454545454545453, "diff": 0.20782013685239492, "lo": 0.14573099693089037, "hi": 0.2700837903538827}, "D": {"config": "D_ridge_a100", "c0": -0.0003277247095134899, "src": 0.5553435114503816, "noise": 0.0, "dup": 0.0028625954198473282, "K_JPY": 1.174618320610687, "placebo_rate_C": 0.06798664122137404, "placebo_rate_rec": 0.05, "src_regime": 0.6666666666666666, "src_non_regime": 0.4665523156089194, "diff": 0.20011435105774722, "lo": 0.14012670361135202, "hi": 0.2599722887889342}}, "passed": {"S": true, "D": true}}}
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  timeline built 11s
+  selectors 13s
+{"selection": {"S": {"config": "S_ridge_a10000", "c0": -0.00027898999382811653, "src": 0.6793893129770993, "noise": 0.0, "dup": 0.6793893129770993, "K_JPY": 1.724236641221374, "placebo_rate_C": 0.06776717557251909, "placebo_rate_rec": 0.05}, "D": {"config": "D_ridge_a1000", "c0": -0.00036907397779480523, "src": 0.7108778625954199, "noise": 0.0, "dup": 0.7127862595419847, "K_JPY": 1.95706106870229, "placebo_rate_C": 0.06310114503816794, "placebo_rate_rec": 0.05}}, "S": {"est_src_alone": 0.29526275347053743, "est_dup_alone": 0.29336985352192335, "est_dup_given_src": -0.41472406399726325, "greedy_dup_rate_given_src": 0.23983739837398374, "greedy_src_rate": 0.46946564885496184, "noise_rate": 0.0, "passed_noise": true, "passed_dup": true}, "D": {"noise_rate": 0.0, "passed_noise": true, "note": "duplicate rule needs the structured conditional gain; checked for S only"}, "passed": {"S": true, "D": true}}
+done

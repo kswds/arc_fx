@@ -1,0 +1,62 @@
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  fold test: fit rows 10..3149 -> 4203..5251
+/Users/wan/Desktop/ARC_FX_2/src/cpgg_v2/cell_reliability.py:36: RuntimeWarning: invalid value encountered in divide
+  rho_pair = p_ed / (p_dd + K_PAIR * m)
+[frozen] timeline 13s, test n=1049
+    S_mlp_h8_wd0.001 1s
+    S_mlp_h8_wd0.01 1s
+    S_mlp_h16_wd0.001 1s
+    S_mlp_h16_wd0.01 1s
+    D_mlp_h8_wd0.001 1s
+    D_mlp_h8_wd0.01 1s
+    D_mlp_h16_wd0.001 0s
+    D_mlp_h16_wd0.01 0s
+[frozen/std] selectors 23s
+    S_mlp_h8_wd0.001 1s
+    S_mlp_h8_wd0.01 1s
+    S_mlp_h16_wd0.001 1s
+    S_mlp_h16_wd0.01 1s
+    D_mlp_h8_wd0.001 1s
+    D_mlp_h8_wd0.01 1s
+    D_mlp_h16_wd0.001 1s
+    D_mlp_h16_wd0.01 1s
+[frozen/wide] selectors 34s
+[frozen] 537 candidates scored 37s
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  fold test: fit rows 10..4197 -> 4203..5251
+/Users/wan/Desktop/ARC_FX_2/src/cpgg_v2/cell_reliability.py:36: RuntimeWarning: invalid value encountered in divide
+  rho_pair = p_ed / (p_dd + K_PAIR * m)
+[refit] timeline 18s, test n=1049
+    S_mlp_h8_wd0.001 1s
+    S_mlp_h8_wd0.01 1s
+    S_mlp_h16_wd0.001 1s
+    S_mlp_h16_wd0.01 1s
+    D_mlp_h8_wd0.001 1s
+    D_mlp_h8_wd0.01 1s
+    D_mlp_h16_wd0.001 0s
+    D_mlp_h16_wd0.01 0s
+[refit/std] selectors 28s
+    S_mlp_h8_wd0.001 1s
+    S_mlp_h8_wd0.01 1s
+    S_mlp_h16_wd0.001 1s
+    S_mlp_h16_wd0.01 1s
+    D_mlp_h8_wd0.001 1s
+    D_mlp_h8_wd0.01 1s
+    D_mlp_h16_wd0.001 1s
+    D_mlp_h16_wd0.01 1s
+[refit/wide] selectors 40s
+[refit] 537 candidates scored 42s
+main: frozen | std | S_mlp_h16_wd0.01 | placebo0.975  loss 1.14325  K 0.43
+main vs Own-only (frozen): +1.52 [-0.61, +3.78] x1e-3
+main vs Dense (frozen): +16.71 [+12.13, +21.44] x1e-3
+main vs Own-only (refit): +5.45 [+0.73, +10.32] x1e-3
+main vs Dense (refit): +12.48 [+7.78, +17.43] x1e-3
+Dense vs Own-only (frozen): -15.19 [-20.81, -9.69] x1e-3
+Dense vs Own-only (refit): -7.03 [-10.86, -3.27] x1e-3
+done 83s, 1839 MB

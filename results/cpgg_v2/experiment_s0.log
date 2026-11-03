@@ -1,0 +1,26 @@
+M-v2 run
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  timeline built 12s
+    S_mlp_h8_wd0.001 1s
+    S_mlp_h8_wd0.01 1s
+    S_mlp_h16_wd0.001 1s
+    S_mlp_h16_wd0.01 1s
+    D_mlp_h8_wd0.001 1s
+    D_mlp_h8_wd0.01 1s
+    D_mlp_h16_wd0.001 0s
+    D_mlp_h16_wd0.01 0s
+  selectors 22s
+M-v1 run (same own predictions)
+  fold 1: fit rows 10..1262 -> 1268..1896
+  fold 2: fit rows 10..1891 -> 1897..2525
+  fold 3: fit rows 10..2520 -> 2526..3154
+  fold final: fit rows 10..3149 -> 3155..4202
+  timeline built 50s
+  selectors 51s
+H1: Dense (M-v2) vs Own-only: -12.55 [-18.97, -6.72] x1e-3
+H2: main vs Dense (M-v2): +10.69 [+5.92, +16.26] x1e-3
+H3: main vs Own-only: -1.86 [-4.06, +0.30] x1e-3
+done 85s, 1907 MB

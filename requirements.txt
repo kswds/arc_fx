@@ -5,3 +5,5 @@ PyYAML
 scikit-learn
 torch
 xgboost
+matplotlib
+tabulate

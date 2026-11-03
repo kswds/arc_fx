@@ -1,0 +1,101 @@
+{
+ "block1": {
+  "first_row": 10,
+  "last_row": 638,
+  "n": 629,
+  "start": "2005-01-18",
+  "end": "2007-07-17"
+ },
+ "block2": {
+  "first_row": 639,
+  "last_row": 1267,
+  "n": 629,
+  "start": "2007-07-18",
+  "end": "2010-01-13"
+ },
+ "block3": {
+  "first_row": 1268,
+  "last_row": 1896,
+  "n": 629,
+  "start": "2010-01-14",
+  "end": "2012-07-16"
+ },
+ "block4": {
+  "first_row": 1897,
+  "last_row": 2525,
+  "n": 629,
+  "start": "2012-07-17",
+  "end": "2015-01-21"
+ },
+ "block5": {
+  "first_row": 2526,
+  "last_row": 3154,
+  "n": 629,
+  "start": "2015-01-22",
+  "end": "2017-07-24"
+ },
+ "fold1": {
+  "fit_rows": [
+   10,
+   1262
+  ],
+  "fit_dates": [
+   "2005-01-18",
+   "2010-01-06"
+  ],
+  "purge": 5,
+  "record_block": 3,
+  "own_model": "O_2"
+ },
+ "fold2": {
+  "fit_rows": [
+   10,
+   1891
+  ],
+  "fit_dates": [
+   "2005-01-18",
+   "2012-07-09"
+  ],
+  "purge": 5,
+  "record_block": 4,
+  "own_model": "O_3"
+ },
+ "fold3": {
+  "fit_rows": [
+   10,
+   2520
+  ],
+  "fit_dates": [
+   "2005-01-18",
+   "2015-01-13"
+  ],
+  "purge": 5,
+  "record_block": 5,
+  "own_model": "O_4"
+ },
+ "final": {
+  "fit_rows": [
+   10,
+   3149
+  ],
+  "fit_dates": [
+   "2005-01-18",
+   "2017-07-17"
+  ],
+  "applies_to": "C",
+  "own_model": "O_5"
+ },
+ "C": {
+  "first_row": 3155,
+  "last_row": 4202,
+  "n": 1048,
+  "start": "2017-07-25",
+  "end": "2021-10-05"
+ },
+ "roles": {
+  "selector_train": "records of blocks 3-4 (folds 1-2)",
+  "calibration": "records of block 5 (fold 3)",
+  "threshold": "placebo candidates of blocks 3-5",
+  "evaluation": "C"
+ }
+}

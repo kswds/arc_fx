@@ -1,0 +1,168 @@
+{
+  "name": "Conditional Predictive Gain Graph (CPGG) - design for this study, not an established algorithm",
+  "fx_input_policy": "lag1",
+  "fx_input_policy_options": {
+    "lag1": "primary: FX-derived inputs (returns, momentum, FX vol, FX-vol regime, loss volatility) use rows <= t-1; the 12:00 H.10 rate of the decision date is not an input (consistent with the 11:30 feature cutoff)",
+    "same_day": "sensitivity only: same-day 12:00 FX is an input; assumes a real-time market feed observes the noon rate at decision time (NOT the FRED/H.10 publication time)"
+  },
+  "split": {
+    "legacy_rule": "rows 10.. of the merged PIT panel; train = first 60% of (n - 10), validation = next 20%, test = rest (arcfx_selector_compare.Data)",
+    "A_fraction_of_train": 0.7,
+    "oof": {
+      "warmup_fraction_of_A": 0.4,
+      "n_folds": 3
+    },
+    "test_used": false
+  },
+  "n_lags": 5,
+  "loss": {
+    "huber_delta": 1.0,
+    "eta": 1.0,
+    "direction_temperature": 1.0,
+    "vol_window": 20,
+    "vol_floor": 0.0001,
+    "source": "RACE-FX c01 (configs/race_fx_mps.json), fixed"
+  },
+  "own_model": {
+    "hidden": 32,
+    "emb": 8,
+    "dropout": 0.1,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "max_epochs": 80,
+    "patience": 20,
+    "inner_val_fraction": 0.15
+  },
+  "message_model": {
+    "hidden": 32,
+    "emb": 8,
+    "enc": 8,
+    "dropout": 0.1,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "max_epochs": 80,
+    "patience": 20,
+    "inner_val_fraction": 0.15,
+    "mask_mix": {
+      "singleton": 0.34,
+      "full": 0.33,
+      "random": 0.33
+    },
+    "masks_per_date": "one mask per (date, receiver) per step, resampled every step",
+    "pair_table": true,
+    "pair_lr_mult": 10,
+    "pair_weight_decay": 0.0001,
+    "checkpoint": "selectable_gain"
+  },
+  "gain_dataset": {
+    "subsets_per_date_receiver": 4,
+    "include_empty": true,
+    "random_size": "uniform 1..9"
+  },
+  "selector_grid": {
+    "ridge": [
+      {
+        "alpha": 1.0
+      },
+      {
+        "alpha": 10.0
+      },
+      {
+        "alpha": 100.0
+      }
+    ],
+    "mlp": [
+      {
+        "hidden": 16,
+        "weight_decay": 0.001
+      },
+      {
+        "hidden": 32,
+        "weight_decay": 0.001
+      },
+      {
+        "hidden": 32,
+        "weight_decay": 0.01
+      }
+    ],
+    "mlp_train": {
+      "lr": 0.001,
+      "epochs": 40,
+      "patience": 5,
+      "batch_size": 4096,
+      "inner_val": "last 20% of B dates (time-ordered)"
+    }
+  },
+  "aux_rule": "3 selectors of the chosen config on 3 time blocks of B; add a candidate only if all three estimated gains > 0 (fixed before running)",
+  "topk_grid": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "full_train_baselines": {
+    "inner_val_fraction": 0.15
+  },
+  "synthetic": {
+    "receiver": "JPY",
+    "source": "CHF",
+    "noise_source": "SEK",
+    "duplicate_source": "NOK",
+    "duplicate_noise_sd": 0.1,
+    "source_lag": 1,
+    "snr": [
+      1.0,
+      0.3,
+      0.1,
+      0.03
+    ],
+    "regime": "Global_VIX_change at decision row > 0",
+    "regime_snr": 0.3,
+    "redundancy_snr": 0.3,
+    "pass_A": "SNR 1.0 and 0.3: forced-edge loss gain >= 50% of oracle gain and block-bootstrap 95% CI of (own - forced) > 0",
+    "pass_B": "CHF->JPY selection rate higher on regime than non-regime days (block bootstrap CI low > 0), per selector",
+    "pass_C": "noise source selection rate for JPY <= 10%; mean estimated gain of duplicate given S={CHF} <= 0.5 x estimated gain of CHF given empty set",
+    "max_fix_attempts": 5
+  },
+  "evaluation": {
+    "block": 10,
+    "block_sensitivity": [
+      5,
+      20
+    ],
+    "bootstrap_reps": 10000,
+    "primary": "date-wise mean over 10 currencies of prediction loss (Huber + eta BCE); paired difference",
+    "H1": "Dense residual vs Own-only on C",
+    "H2": "Selected residual (main rule) vs Dense residual on C"
+  },
+  "seeds_checkpoint": [
+    0
+  ],
+  "seeds_extended": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "threads": 2,
+  "device": "cpu",
+  "fix_attempts": [
+    {
+      "attempt": 1,
+      "failure": "synthetic A SNR1.0: forced/oracle gain ratio 0.006; CHF message slope 0.003 vs injected 1.11; early stop at epoch 1 (~9 steps/epoch)",
+      "diagnosis": "optimisation + structure: pair-specific coefficient only reachable via embedding x trunk interaction, shared bias path averages to 0 across pairs; too few steps before early stopping",
+      "change": "message: add zero-initialised pair-specific coefficient table to beta; lr 1e-3->3e-3, batch 128->32, patience 10->20. own: batch 128->32, patience 10->20",
+      "probe": "lr3e-3/b32/p20 alone: slope 0.016; pair table alone: slope 0.008; both: slope 1.14, ratio 0.89"
+    },
+    {
+      "attempt": 2,
+      "failure": "attempt 1: A SNR1.0 passed (ratio 0.89) but SNR0.3 failed (ratio 0.11); message checkpoint stayed at epoch 1",
+      "diagnosis": "trace (no early stop): CHF->JPY slope reaches the injected 0.61 by epoch 4-5 and JPY val loss falls, but messages of the 9 receivers without signal raise their val loss from epoch 1, so the full-mask inner-val loss never improves; stronger weight decay / pair lr alone (8 probes) did not change this",
+      "change": "message checkpoint criterion = minus the selectable gain on the inner validation rows (last 15% of A OOF rows): sum over (receiver, sender) of max(0, mean single-add loss gain at the empty set); lr 3e-3 -> 1e-3 with 10x lr on the pair table",
+      "probe": "selectable-gain checkpoint: SNR1.0 ratio 0.88, SNR0.3 0.77, SNR0.1 0.49"
+    }
+  ]
+}
